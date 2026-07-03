@@ -1,0 +1,86 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "CSV Viewer",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "CSV Viewer",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能亮点",
+          "url": "/#features",
+          "icon": "Sparkles"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": []
+    },
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "CSV Viewer",
+      "description": "快速、免费的在线 CSV 查看工具，支持打开、浏览和分析 CSV 文件，无需下载或安装。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "CSV Viewer",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "产品",
+          "children": [
+            {
+              "title": "功能亮点",
+              "url": "/#features",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "邮箱",
+          "icon": "Mail",
+          "url": "mailto:support@csvviewer.net",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true
+  }
+}

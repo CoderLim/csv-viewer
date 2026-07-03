@@ -1,0 +1,204 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "在浏览器中即时查看 CSV 文件",
+        "highlight_text": "即时",
+        "description": "CSV Viewer 是一款快速、免费的 CSV 查看工具。<br/>无需下载或安装，拖放文件即可开始浏览。",
+        "tip": "🔒 文件仅在浏览器本地处理，不会上传到服务器",
+        "show_avatars": false,
+        "show_award": false,
+        "csv_upload": {
+          "drop_title": "将 CSV 文件拖放到此处",
+          "drop_hint": "或点击选择文件",
+          "file_type_hint": "支持 .csv 文件",
+          "parsing": "正在解析...",
+          "error_invalid_type": "请上传 .csv 文件",
+          "error_parse_failed": "CSV 文件解析失败",
+          "error_empty": "文件为空",
+          "row_count": "{count} 行",
+          "column_count": "{count} 列",
+          "reupload": "上传其他文件",
+          "page_info": "第 {current} / {total} 页"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "CSV Viewer 是什么？",
+        "label": "产品简介",
+        "description": "CSV Viewer 是一款基于浏览器的 CSV 查看工具，无需安装任何软件即可打开和浏览 CSV 文件。上传文件后，几秒内即可查看行列数据。",
+        "image": {
+          "src": "https://picsum.photos/seed/csvviewer-zh-introduce-main/960/640.webp",
+          "alt": "introduce"
+        },
+        "items": [
+          {
+            "title": "拖放上传",
+            "description": "将 CSV 文件拖入浏览器窗口，或点击选择文件，即可即时解析。",
+            "icon": "RiUploadCloud2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-zh-introduce-1/640/480.webp",
+              "alt": "拖放上传"
+            }
+          },
+          {
+            "title": "交互式表格",
+            "description": "以清晰的表格展示数据，支持列标题、行号和响应式布局。",
+            "icon": "RiTableLine",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-zh-introduce-2/640/480.webp",
+              "alt": "表格视图"
+            }
+          },
+          {
+            "title": "排序与筛选",
+            "description": "点击列标题升序或降序排列，支持全局搜索快速定位数据。",
+            "icon": "RiFilter3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-zh-introduce-3/640/480.webp",
+              "alt": "排序与筛选"
+            }
+          },
+          {
+            "title": "导出数据",
+            "description": "一键将筛选或排序后的结果导出为 CSV 或 JSON 格式。",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-zh-introduce-4/640/480.webp",
+              "alt": "导出数据"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "为何选择 CSV Viewer",
+        "label": "产品优势",
+        "description": "简单、注重隐私的 CSV 查看方式，适合数据分析师、开发者和所有需要处理数据的用户。",
+        "items": [
+          {
+            "title": "无需安装",
+            "description": "完全在浏览器中运行。在任何设备上打开 csvviewer.net，即可立即查看文件。",
+            "icon": "RiGlobalLine",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-zh-benefits-1/960/640.webp",
+              "alt": "无需安装"
+            }
+          },
+          {
+            "title": "隐私优先",
+            "description": "CSV 文件在浏览器本地处理，不会上传或存储到我们的服务器。",
+            "icon": "RiShieldCheckLine",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-zh-benefits-2/960/640.webp",
+              "alt": "隐私优先"
+            }
+          },
+          {
+            "title": "全平台兼容",
+            "description": "兼容 Chrome、Firefox、Safari 和 Edge，支持桌面端和移动端，无需插件。",
+            "icon": "RiDeviceLine",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-zh-benefits-3/960/640.webp",
+              "alt": "全平台兼容"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "CSV Viewer 核心功能",
+        "description": "打开、浏览和处理 CSV 文件所需的一切功能，快速且免费。",
+        "items": [
+          {
+            "title": "拖放上传",
+            "description": "通过拖放或文件选择器上传 CSV 文件。",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "列排序",
+            "description": "单击列标题即可升序或降序排列。",
+            "icon": "RiSortAsc"
+          },
+          {
+            "title": "搜索与筛选",
+            "description": "在所有行和列中搜索，快速找到所需数据。",
+            "icon": "RiSearchLine"
+          },
+          {
+            "title": "分页浏览",
+            "description": "大文件通过分页流畅浏览，不卡顿、不冻结。",
+            "icon": "RiPagesLine"
+          },
+          {
+            "title": "导出选项",
+            "description": "排序和筛选后可导出为 CSV 或 JSON 格式。",
+            "icon": "RiDownload2Line"
+          },
+          {
+            "title": "深色模式",
+            "description": "支持浅色和深色模式，可跟随系统偏好自动切换。",
+            "icon": "RiMoonLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "description": "还有其他问题？请发送邮件至 support@csvviewer.net。",
+        "items": [
+          {
+            "question": "CSV Viewer 是什么？",
+            "answer": "CSV Viewer 是一款免费的在线 CSV（逗号分隔值）文件查看工具。您可以上传文件、以表格形式浏览、排序列、搜索行并导出结果，无需安装任何软件。"
+          },
+          {
+            "question": "我的数据安全吗？会上传文件吗？",
+            "answer": "我们非常重视您的隐私。CSV Viewer 完全在浏览器中使用客户端 JavaScript 处理文件，数据不会上传或存储到我们的服务器。"
+          },
+          {
+            "question": "支持哪些文件格式？",
+            "answer": "CSV Viewer 支持标准 CSV 文件（.csv），兼容逗号、分号或制表符分隔符，完整支持 UTF-8 编码，包括带 BOM 头的文件。"
+          },
+          {
+            "question": "有文件大小限制吗？",
+            "answer": "CSV Viewer 可处理数百兆字节的文件，具体取决于浏览器和设备内存。对于超大文件，分页功能可保持界面流畅响应。"
+          },
+          {
+            "question": "需要注册账户吗？",
+            "answer": "不需要。CSV Viewer 完全免费，无需注册。打开网站即可上传文件。"
+          },
+          {
+            "question": "可以在手机上使用吗？",
+            "answer": "可以。CSV Viewer 支持 iOS Safari 和 Android Chrome 等现代移动浏览器，表格视图在小屏幕上同样可滚动浏览。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "立即开始查看 CSV 文件",
+        "description": "免费、快速、注重隐私。打开 csvviewer.net，几秒内上传您的第一个文件。",
+        "buttons": [
+          {
+            "title": "打开 CSV Viewer",
+            "url": "/#features",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

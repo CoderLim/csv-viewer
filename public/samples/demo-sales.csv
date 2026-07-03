@@ -1,0 +1,16 @@
+Order ID,Product,Category,Region,Quantity,Revenue,Date,Status
+ORD-1001,Wireless Mouse,Electronics,North America,24,719.76,2025-01-15,Completed
+ORD-1002,Desk Lamp,Home Office,Europe,12,359.88,2025-01-16,Completed
+ORD-1003,USB-C Hub,Electronics,Asia Pacific,8,319.92,2025-01-17,Completed
+ORD-1004,Notebook Set,Stationery,North America,45,224.55,2025-01-18,Completed
+ORD-1005,Monitor Stand,Home Office,Europe,6,179.94,2025-01-19,Pending
+ORD-1006,Keyboard,Electronics,Asia Pacific,15,749.85,2025-01-20,Completed
+ORD-1007,Webcam HD,Electronics,North America,9,449.91,2025-01-21,Shipped
+ORD-1008,File Organizer,Stationery,Europe,30,149.70,2025-01-22,Completed
+ORD-1009,Ergonomic Chair,Home Office,North America,3,897.00,2025-01-23,Pending
+ORD-1010,Headphones,Electronics,Asia Pacific,11,549.89,2025-01-24,Completed
+ORD-1011,Whiteboard,Office,Europe,4,199.96,2025-01-25,Completed
+ORD-1012,Power Strip,Electronics,North America,20,259.80,2025-01-26,Shipped
+ORD-1013,Pen Pack,Stationery,Asia Pacific,60,89.40,2025-01-27,Completed
+ORD-1014,Laptop Stand,Home Office,Europe,7,209.93,2025-01-28,Completed
+ORD-1015,Tablet Case,Electronics,North America,18,359.82,2025-01-29,Completed

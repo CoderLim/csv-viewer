@@ -1,0 +1,204 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "View CSV files instantly in your browser",
+        "highlight_text": "instantly",
+        "description": "CSV Viewer is a fast, free tool for opening, exploring, and analyzing CSV files.<br/>No download or installation required — just drag, drop, and explore.",
+        "tip": "🔒 Your files stay in your browser — nothing is uploaded to our servers",
+        "show_avatars": false,
+        "show_award": false,
+        "csv_upload": {
+          "drop_title": "Drop your CSV file here",
+          "drop_hint": "or click to browse",
+          "file_type_hint": "Supports .csv files",
+          "parsing": "Parsing...",
+          "error_invalid_type": "Please upload a .csv file",
+          "error_parse_failed": "Failed to parse CSV file",
+          "error_empty": "The file is empty",
+          "row_count": "{count} rows",
+          "column_count": "{count} columns",
+          "reupload": "Upload another file",
+          "page_info": "Page {current} of {total}"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "What is CSV Viewer",
+        "label": "Introduce",
+        "description": "CSV Viewer is a browser-based tool that lets you open and explore CSV files without installing any software. Upload a file, browse rows and columns, and get insights in seconds.",
+        "image": {
+          "src": "/imgs/csv-viewer/introduce-main.png",
+          "alt": "CSV Viewer table preview with sample sales data"
+        },
+        "items": [
+          {
+            "title": "Drag & Drop Upload",
+            "description": "Simply drag a CSV file into the browser window or click to browse. Your file is parsed instantly.",
+            "icon": "RiUploadCloud2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-en-introduce-1/640/480.webp",
+              "alt": "drag and drop upload"
+            }
+          },
+          {
+            "title": "Interactive Table View",
+            "description": "Browse your data in a clean, scrollable table with column headers, row numbers, and responsive layout.",
+            "icon": "RiTableLine",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-en-introduce-2/640/480.webp",
+              "alt": "table view"
+            }
+          },
+          {
+            "title": "Sort & Filter Columns",
+            "description": "Click column headers to sort ascending or descending. Search across all rows to find what you need.",
+            "icon": "RiFilter3Line",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-en-introduce-3/640/480.webp",
+              "alt": "sort and filter"
+            }
+          },
+          {
+            "title": "Export Your Data",
+            "description": "Download filtered or sorted results as CSV or JSON with a single click.",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/csvviewer-en-introduce-4/640/480.webp",
+              "alt": "export data"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Why Choose CSV Viewer",
+        "label": "Benefits",
+        "description": "A simple, privacy-first way to work with CSV files — built for analysts, developers, and anyone who deals with data.",
+        "items": [
+          {
+            "title": "No Installation Needed",
+            "description": "Works entirely in your browser. Open csvviewer.net on any device and start viewing files immediately.",
+            "icon": "RiGlobalLine",
+            "image": {
+              "src": "/imgs/csv-viewer/benefits-no-install.png",
+              "alt": "Drag and drop CSV upload zone in the browser"
+            }
+          },
+          {
+            "title": "Privacy First",
+            "description": "Your CSV files are processed locally in your browser. We never upload or store your data on our servers.",
+            "icon": "RiShieldCheckLine",
+            "image": {
+              "src": "/imgs/csv-viewer/benefits-privacy.png",
+              "alt": "CSV data processed locally in the browser"
+            }
+          },
+          {
+            "title": "Works Everywhere",
+            "description": "Compatible with Chrome, Firefox, Safari, and Edge on desktop and mobile. No plugins required.",
+            "icon": "RiDeviceLine",
+            "image": {
+              "src": "/imgs/csv-viewer/benefits-devices.png",
+              "alt": "CSV Viewer responsive table on mobile"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Key Features of CSV Viewer",
+        "description": "Everything you need to open, explore, and work with CSV files — fast and free.",
+        "items": [
+          {
+            "title": "Drag & Drop Upload",
+            "description": "Upload CSV files by dragging them into the browser or using the file picker.",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "Column Sorting",
+            "description": "Sort any column ascending or descending with a single click.",
+            "icon": "RiSortAsc"
+          },
+          {
+            "title": "Search & Filter",
+            "description": "Search across all rows and columns to quickly find the data you need.",
+            "icon": "RiSearchLine"
+          },
+          {
+            "title": "Pagination",
+            "description": "Navigate large files with smooth pagination — no lag, no freezing.",
+            "icon": "RiPagesLine"
+          },
+          {
+            "title": "Export Options",
+            "description": "Download your data as CSV or JSON after sorting and filtering.",
+            "icon": "RiDownload2Line"
+          },
+          {
+            "title": "Dark Mode",
+            "description": "Comfortable viewing in light or dark mode, matching your system preference.",
+            "icon": "RiMoonLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Frequently Asked Questions",
+        "description": "Have another question? Contact us at support@csvviewer.net.",
+        "items": [
+          {
+            "question": "What is CSV Viewer?",
+            "answer": "CSV Viewer is a free, browser-based tool for opening and exploring CSV (Comma-Separated Values) files. You can upload a file, browse it in a table, sort columns, search rows, and export results — all without installing any software."
+          },
+          {
+            "question": "Is my data safe? Do you upload my files?",
+            "answer": "Your privacy is our priority. CSV Viewer processes files entirely in your browser using client-side JavaScript. Your data is never uploaded to or stored on our servers."
+          },
+          {
+            "question": "What file formats are supported?",
+            "answer": "CSV Viewer supports standard CSV files (.csv) with comma, semicolon, or tab delimiters. UTF-8 encoding is fully supported, including files with BOM headers."
+          },
+          {
+            "question": "Is there a file size limit?",
+            "answer": "CSV Viewer can handle files up to several hundred megabytes, depending on your browser and device memory. For very large files, pagination keeps the interface responsive."
+          },
+          {
+            "question": "Do I need to create an account?",
+            "answer": "No account is required. CSV Viewer is free to use with no sign-up needed. Just open the site and upload your file."
+          },
+          {
+            "question": "Can I use CSV Viewer on mobile?",
+            "answer": "Yes. CSV Viewer works on modern mobile browsers including Safari on iOS and Chrome on Android. The table view is responsive and scrollable on smaller screens."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Start viewing your CSV files today",
+        "description": "Free, fast, and private. Open csvviewer.net and upload your first file in seconds.",
+        "buttons": [
+          {
+            "title": "Open CSV Viewer",
+            "url": "/#features",
+            "target": "_self",
+            "icon": "Zap"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}
