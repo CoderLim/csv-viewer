@@ -3,6 +3,9 @@
     "show_sections": [
       "hero",
       "introduce",
+      "how_to_use",
+      "use_cases",
+      "spreadsheet_alternative",
       "benefits",
       "features",
       "faq",
@@ -80,6 +83,102 @@
           }
         ],
         "className": "bg-muted"
+      },
+      "how_to_use": {
+        "block": "features-step",
+        "id": "how-to-use",
+        "label": "How it works",
+        "title": "How to use CSV Viewer",
+        "description": "CSV Viewer is built for the moments when you simply need to open a CSV file and understand what is inside. There is no account, import wizard, or spreadsheet setup. Open the page, choose a file, and the table is ready in your browser.",
+        "items": [
+          {
+            "title": "Upload a CSV file",
+            "description": "Drag a file into CSV Viewer or use the file picker. It works as a CSV Opener for quick checks, exported reports, product lists, customer files, and database dumps.",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "Review rows and columns",
+            "description": "CSV Viewer reads the header row and presents the file as a clean table, so you can scan fields, spot missing values, and confirm that the data looks right before sharing or importing it. CSV Viewer is meant to make that first pass quick.",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "Search, sort, and filter",
+            "description": "Use CSV Viewer Online to find a record, check a column, or sort a report without opening a heavy spreadsheet app. It is useful when you need an answer, not a full workbook.",
+            "icon": "RiSearchLine"
+          },
+          {
+            "title": "Export what you need",
+            "description": "After reviewing the file, CSV Viewer lets you export the result as CSV or JSON. This keeps the workflow simple for handoffs, QA checks, data cleanup, and lightweight analysis.",
+            "icon": "RiDownload2Line"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features",
+        "id": "use-cases",
+        "title": "Common ways people use CSV Viewer",
+        "description": "CSV files show up in everyday work: ad platforms, analytics tools, payment processors, CRMs, support desks, ecommerce systems, and internal databases all export them. CSV Viewer gives you a fast place to inspect those files before you decide what to do next, and CSV Viewer keeps that first review simple.",
+        "items": [
+          {
+            "title": "Marketing exports",
+            "description": "Check campaign results, keyword lists, UTM reports, and audience exports without waiting for a spreadsheet to load. CSV Viewer helps you confirm column names, totals, and obvious formatting problems quickly.",
+            "icon": "RiMegaphoneLine"
+          },
+          {
+            "title": "Sales and customer lists",
+            "description": "Open lead lists, CRM exports, signup data, and account reports in a readable table. A simple Online CSV Viewer is often enough when the job is to inspect the file before importing it elsewhere.",
+            "icon": "RiUserSearchLine"
+          },
+          {
+            "title": "Product catalogs",
+            "description": "Review SKU files, inventory exports, pricing sheets, and marketplace templates. CSV Viewer makes it easier to catch empty fields, shifted columns, or strange delimiters before a catalog upload, especially when CSV Viewer is only needed for a quick check.",
+            "icon": "RiShoppingBag3Line"
+          },
+          {
+            "title": "Finance reports",
+            "description": "Open transaction exports, payout files, invoice records, and reconciliation lists. CSV Viewer is a practical CSV Reader when you need to verify rows and columns without changing the original file.",
+            "icon": "RiMoneyDollarCircleLine"
+          },
+          {
+            "title": "Developer data checks",
+            "description": "Inspect log exports, database query results, seed files, and test fixtures. CSV Viewer gives developers a quick browser-based way to check data shape before writing scripts or running imports.",
+            "icon": "RiCodeSSlashLine"
+          },
+          {
+            "title": "Support operations",
+            "description": "Review ticket exports, survey responses, contact lists, and incident reports. CSV Viewer keeps the file easy to scan, which helps teams answer simple data questions without building a dashboard or sending the file through another tool.",
+            "icon": "RiCustomerService2Line"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "spreadsheet_alternative": {
+        "block": "features-media",
+        "id": "csv-viewer-online",
+        "title": "A CSV Reader for quick checks, not another spreadsheet",
+        "description": "Spreadsheet apps are great when you need formulas, charts, and collaboration. They are slower when all you want is to open a CSV file, confirm the columns, search for a value, or check an export. CSV Viewer focuses on that first review step. It works as a lightweight CSV Opener in the browser, so you can view the file without creating an account, uploading it to a workspace, or changing the source data.",
+        "image": {
+          "src": "/imgs/csv-viewer/introduce-main.png",
+          "alt": "CSV Viewer Online showing a CSV file in a browser table"
+        },
+        "image_position": "right",
+        "items": [
+          {
+            "title": "Fast first look",
+            "description": "Use CSV Viewer when you need to know what is in a file before opening a larger tool.",
+            "icon": "RiFlashlightLine"
+          },
+          {
+            "title": "No forced workflow",
+            "description": "The file opens as a table. There is no template choice, cloud import, or workbook setup.",
+            "icon": "RiCursorLine"
+          },
+          {
+            "title": "Private by design",
+            "description": "CSV Viewer processes files in your browser, which is useful for customer data and internal exports. CSV Viewer keeps the review step local.",
+            "icon": "RiShieldCheckLine"
+          }
+        ]
       },
       "benefits": {
         "block": "features-accordion",

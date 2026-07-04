@@ -38,8 +38,8 @@
         "label": "产品简介",
         "description": "CSV Viewer 是一款基于浏览器的 CSV 查看工具，无需安装任何软件即可打开和浏览 CSV 文件。上传文件后，几秒内即可查看行列数据。",
         "image": {
-          "src": "https://picsum.photos/seed/csvviewer-zh-introduce-main/960/640.webp",
-          "alt": "introduce"
+          "src": "/imgs/csv-viewer/introduce-main.png",
+          "alt": "CSV Viewer 显示示例销售数据的表格预览界面"
         },
         "items": [
           {
@@ -47,8 +47,8 @@
             "description": "将 CSV 文件拖入浏览器窗口，或点击选择文件，即可即时解析。",
             "icon": "RiUploadCloud2Line",
             "image": {
-              "src": "https://picsum.photos/seed/csvviewer-zh-introduce-1/640/480.webp",
-              "alt": "拖放上传"
+              "src": "/imgs/csv-viewer/benefits-no-install.png",
+              "alt": "浏览器中的 CSV 文件拖放上传区域"
             }
           },
           {
@@ -56,8 +56,8 @@
             "description": "以清晰的表格展示数据，支持列标题、行号和响应式布局。",
             "icon": "RiTableLine",
             "image": {
-              "src": "https://picsum.photos/seed/csvviewer-zh-introduce-2/640/480.webp",
-              "alt": "表格视图"
+              "src": "/imgs/csv-viewer/introduce-main.png",
+              "alt": "CSV Viewer 交互式表格视图"
             }
           },
           {
@@ -65,8 +65,8 @@
             "description": "点击列标题升序或降序排列，支持全局搜索快速定位数据。",
             "icon": "RiFilter3Line",
             "image": {
-              "src": "https://picsum.photos/seed/csvviewer-zh-introduce-3/640/480.webp",
-              "alt": "排序与筛选"
+              "src": "/imgs/csv-viewer/benefits-devices.png",
+              "alt": "CSV Viewer 在不同设备上浏览和筛选表格数据"
             }
           },
           {
@@ -74,8 +74,8 @@
             "description": "一键将筛选或排序后的结果导出为 CSV 或 JSON 格式。",
             "icon": "RiDownload2Line",
             "image": {
-              "src": "https://picsum.photos/seed/csvviewer-zh-introduce-4/640/480.webp",
-              "alt": "导出数据"
+              "src": "/imgs/csv-viewer/benefits-privacy.png",
+              "alt": "CSV Viewer 在浏览器本地处理并导出 CSV 数据"
             }
           }
         ],
@@ -93,8 +93,8 @@
             "description": "完全在浏览器中运行。在任何设备上打开 csvviewer.net，即可立即查看文件。",
             "icon": "RiGlobalLine",
             "image": {
-              "src": "https://picsum.photos/seed/csvviewer-zh-benefits-1/960/640.webp",
-              "alt": "无需安装"
+              "src": "/imgs/csv-viewer/benefits-no-install.png",
+              "alt": "无需安装即可在浏览器中上传 CSV 文件"
             }
           },
           {
@@ -102,8 +102,8 @@
             "description": "CSV 文件在浏览器本地处理，不会上传或存储到我们的服务器。",
             "icon": "RiShieldCheckLine",
             "image": {
-              "src": "https://picsum.photos/seed/csvviewer-zh-benefits-2/960/640.webp",
-              "alt": "隐私优先"
+              "src": "/imgs/csv-viewer/benefits-privacy.png",
+              "alt": "CSV 文件在浏览器本地解析保护数据隐私"
             }
           },
           {
@@ -111,8 +111,8 @@
             "description": "兼容 Chrome、Firefox、Safari 和 Edge，支持桌面端和移动端，无需插件。",
             "icon": "RiDeviceLine",
             "image": {
-              "src": "https://picsum.photos/seed/csvviewer-zh-benefits-3/960/640.webp",
-              "alt": "全平台兼容"
+              "src": "/imgs/csv-viewer/benefits-devices.png",
+              "alt": "CSV Viewer 在桌面和移动设备上的响应式表格界面"
             }
           }
         ]
