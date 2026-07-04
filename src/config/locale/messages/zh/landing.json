@@ -65,6 +65,12 @@
           "icon": "Mail",
           "url": "mailto:support@csvviewer.net",
           "target": "_self"
+        },
+        {
+          "title": "GitHub",
+          "icon": "Github",
+          "url": "https://github.com/CoderLim/csv-viewer",
+          "target": "_blank"
         }
       ]
     },
@@ -81,6 +87,7 @@
       ]
     },
     "show_theme": true,
-    "show_locale": true
+    "show_locale": true,
+    "show_built_with": false
   }
 }
