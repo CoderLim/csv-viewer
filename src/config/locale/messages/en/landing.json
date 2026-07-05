@@ -17,6 +17,11 @@
           "title": "Features",
           "url": "/#features",
           "icon": "Sparkles"
+        },
+        {
+          "title": "Blog",
+          "url": "/blog",
+          "icon": "Newspaper"
         }
       ]
     },

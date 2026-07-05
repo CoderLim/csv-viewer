@@ -17,6 +17,11 @@
           "title": "功能亮点",
           "url": "/#features",
           "icon": "Sparkles"
+        },
+        {
+          "title": "博客",
+          "url": "/blog",
+          "icon": "Newspaper"
         }
       ]
     },
