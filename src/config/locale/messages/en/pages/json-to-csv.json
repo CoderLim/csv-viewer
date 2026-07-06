@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "title": "JSON to CSV Converter — Free Online Tool | CSV Viewer",
+    "description": "Convert JSON to CSV online for free. Upload a file or paste text, preview in a table, and download CSV instantly in your browser.",
+    "keywords": "JSON to CSV, json to csv converter, convert json to csv, json csv converter online, free json to csv"
+  },
+  "tool": {
+    "tab_upload": "Upload file",
+    "tab_paste": "Paste JSON",
+    "paste_placeholder": "Paste your JSON array here, e.g. [{\"name\":\"Alice\",\"age\":30}]",
+    "convert": "Convert",
+    "download_csv": "Download CSV",
+    "drop_title": "Drop your JSON file here",
+    "drop_hint": "or click to browse",
+    "file_type_hint": "Supports .json files",
+    "parsing": "Converting...",
+    "error_invalid_type": "Please upload a .json file",
+    "error_invalid_json": "Invalid JSON format",
+    "error_not_array": "JSON must be an array of objects",
+    "error_empty": "JSON array is empty",
+    "reupload": "Convert another",
+    "row_count": "{count} rows",
+    "column_count": "{count} columns",
+    "page_info": "Page {current} of {total}"
+  },
+  "page": {
+    "title": "JSON to CSV Converter",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "how_to_use",
+      "use_cases",
+      "json_csv_guide",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Convert JSON to CSV instantly",
+        "highlight_text": "CSV",
+        "description": "Upload a JSON file or paste text, preview in a table, and download CSV — no signup required.",
+        "tip": "🔒 Your data stays in your browser — nothing is sent to our servers",
+        "show_avatars": false,
+        "show_award": false
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "label": "Introduce",
+        "title": "What is a JSON to CSV Converter",
+        "description": "A JSON to CSV converter is a tool that transforms JSON arrays of objects into comma-separated values you can open in Excel, Google Sheets, or any spreadsheet app. Our free online JSON to CSV tool runs entirely in your browser, so developers, analysts, and marketers can export structured data without installing software or creating an account.",
+        "image": {
+          "src": "https://picsum.photos/seed/json-to-csv-introduce/1200/800",
+          "alt": "JSON to CSV conversion preview"
+        },
+        "items": [
+          {
+            "title": "Upload or Paste JSON",
+            "description": "Drag a .json file into the browser or paste JSON text directly from your editor or API client. This JSON to CSV workflow supports arrays of objects like [{\"name\":\"Alice\",\"age\":30}] and starts converting in one click.",
+            "icon": "RiUploadCloud2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/json-to-csv-item-0/800/600",
+              "alt": "JSON to CSV upload or paste"
+            }
+          },
+          {
+            "title": "Table Preview",
+            "description": "Before you download, review your JSON to CSV output in a clean, paginated table with column headers and row numbers. Spot missing fields, check nested values, and confirm the structure looks right for your spreadsheet.",
+            "icon": "RiTableLine",
+            "image": {
+              "src": "https://picsum.photos/seed/json-to-csv-item-1/800/600",
+              "alt": "JSON to CSV table preview"
+            }
+          },
+          {
+            "title": "One-Click CSV Download",
+            "description": "Download the converted CSV file instantly after preview. Every JSON to CSV export is compatible with Excel, Google Sheets, LibreOffice Calc, and other tools that accept standard comma-separated files.",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "https://picsum.photos/seed/json-to-csv-item-2/800/600",
+              "alt": "JSON to CSV download"
+            }
+          },
+          {
+            "title": "100% Browser-Based",
+            "description": "All JSON to CSV processing happens locally in your browser. Your files and pasted text never leave your device, which makes this converter practical for customer data, internal exports, and sensitive API responses.",
+            "icon": "RiShieldCheckLine",
+            "image": {
+              "src": "https://picsum.photos/seed/json-to-csv-item-3/800/600",
+              "alt": "private JSON to CSV converter"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "how_to_use": {
+        "block": "features-step",
+        "id": "how-to-use",
+        "label": "How it works",
+        "title": "How to convert JSON to CSV online",
+        "description": "This JSON to CSV converter is built for quick, one-off exports. There is no account setup, no command line, and no desktop install. Open the page, add your JSON, preview the table, and download CSV in four simple steps.",
+        "items": [
+          {
+            "title": "Upload or paste your JSON",
+            "description": "Choose a .json file from your computer or paste JSON text into the editor. The JSON to CSV tool expects an array of objects — each object becomes a row and each key becomes a column header in the output.",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "Preview the table",
+            "description": "Click Convert and review the JSON to CSV result in a paginated table. Column headers, row numbers, and cell values help you verify the export before sharing it with teammates or importing into a spreadsheet.",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "Review and verify data",
+            "description": "Check for empty cells, nested objects, and array values that were stringified during JSON to CSV conversion. This quick review step helps you catch formatting issues before the file reaches Excel or Google Sheets.",
+            "icon": "RiSearchLine"
+          },
+          {
+            "title": "Download your CSV file",
+            "description": "When the preview looks correct, click Download CSV to save the file. Your JSON to CSV export opens directly in spreadsheet apps, so you can sort, filter, and share the data without extra conversion steps.",
+            "icon": "RiDownload2Line"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features",
+        "id": "use-cases",
+        "title": "Common JSON to CSV use cases",
+        "description": "Teams reach for a JSON to CSV converter whenever structured data needs to live in a spreadsheet. APIs, databases, ecommerce platforms, and analytics tools often export JSON, while finance and operations teams still work in CSV. This tool bridges that gap in the browser.",
+        "items": [
+          {
+            "title": "API and REST responses",
+            "description": "Paste a JSON response from Postman, curl, or your app logs and turn it into CSV for reporting. A JSON to CSV workflow is ideal when you need a quick spreadsheet view of endpoint output without writing a script.",
+            "icon": "RiCodeSSlashLine"
+          },
+          {
+            "title": "Database query exports",
+            "description": "Convert JSON rows from MongoDB, PostgreSQL JSON columns, or ORM exports into CSV for analysis. JSON to CSV conversion makes it easier to share query results with non-technical stakeholders who prefer Excel.",
+            "icon": "RiDatabase2Line"
+          },
+          {
+            "title": "Ecommerce product catalogs",
+            "description": "Review product feeds, SKU lists, and inventory JSON before uploading to a marketplace or ERP. JSON to CSV helps you scan columns, find blank fields, and validate catalog data in a familiar table layout.",
+            "icon": "RiShoppingBag3Line"
+          },
+          {
+            "title": "Logs and analytics data",
+            "description": "Open event logs, tracking exports, and dashboard JSON dumps as a table. JSON to CSV is useful when you need to filter rows in a spreadsheet instead of parsing nested JSON by hand.",
+            "icon": "RiBarChart2Line"
+          },
+          {
+            "title": "Developer test fixtures",
+            "description": "Inspect seed files, mock API payloads, and test datasets before writing import scripts. Developers use JSON to CSV to confirm field names and row counts match expectations.",
+            "icon": "RiBugLine"
+          },
+          {
+            "title": "Marketing and CRM migration",
+            "description": "Move lead lists, campaign exports, and CRM JSON files into CSV for mail merges or CRM imports. JSON to CSV conversion keeps handoffs simple when teams need a flat file fast.",
+            "icon": "RiMegaphoneLine"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "json_csv_guide": {
+        "block": "features-media",
+        "id": "json-csv-guide",
+        "title": "JSON vs CSV: when to use a JSON to CSV converter",
+        "description": "JSON is built for nested, hierarchical data — APIs love it because it maps cleanly to objects. CSV is built for flat, tabular data — spreadsheets love it because every row lines up in columns. When you need to move from structured JSON to a shareable table, a JSON to CSV converter is the fastest path.<br/><br/>Our tool focuses on arrays of objects: each object becomes one row, keys become headers, and nested values are preserved as strings. That makes JSON to CSV practical for exports, QA checks, and handoffs without forcing you into a heavy ETL pipeline.",
+        "image": {
+          "src": "https://picsum.photos/seed/json-to-csv-guide/1200/800",
+          "alt": "JSON to CSV format guide"
+        },
+        "image_position": "right",
+        "items": [
+          {
+            "title": "Structured vs tabular",
+            "description": "JSON to CSV flattens object arrays into rows and columns while keeping nested data readable in each cell.",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "Easy to share",
+            "description": "After JSON to CSV conversion, teammates can open the file in Excel or Google Sheets without parsing JSON.",
+            "icon": "RiShareLine"
+          },
+          {
+            "title": "Private by design",
+            "description": "This JSON to CSV converter processes files locally in your browser — ideal for sensitive exports.",
+            "icon": "RiShieldCheckLine"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "label": "Benefits",
+        "title": "Why use our JSON to CSV converter",
+        "description": "A fast, free, and privacy-first JSON to CSV experience — built for developers, analysts, and anyone who needs a spreadsheet from structured data. No install, no account, and no upload to our servers.",
+        "items": [
+          {
+            "title": "No Account Required",
+            "description": "Start your JSON to CSV conversion immediately — no signup, no email, and no credit card. Open the page, paste or upload JSON, and download CSV in seconds.",
+            "icon": "RiUserUnfollowLine",
+            "image": {
+              "src": "https://picsum.photos/seed/json-to-csv-item-10/800/600",
+              "alt": "JSON to CSV no account"
+            }
+          },
+          {
+            "title": "Handles Nested Values",
+            "description": "Objects and arrays inside JSON values are automatically stringified during JSON to CSV conversion, so nested fields are not lost when you move data into a flat CSV file.",
+            "icon": "RiNodeTree",
+            "image": {
+              "src": "https://picsum.photos/seed/json-to-csv-item-11/800/600",
+              "alt": "JSON to CSV nested values"
+            }
+          },
+          {
+            "title": "Works on Any Device",
+            "description": "Use this JSON to CSV converter on desktop, tablet, or mobile. Any modern browser with JavaScript enabled can upload, preview, and download without plugins.",
+            "icon": "RiDeviceLine",
+            "image": {
+              "src": "https://picsum.photos/seed/json-to-csv-item-12/800/600",
+              "alt": "JSON to CSV any device"
+            }
+          },
+          {
+            "title": "Free Forever",
+            "description": "JSON to CSV conversion is completely free with no usage limits or paywalls. Convert as many files as you need for work, school, or personal projects.",
+            "icon": "RiGiftLine",
+            "image": {
+              "src": "https://picsum.photos/seed/json-to-csv-item-13/800/600",
+              "alt": "free JSON to CSV converter"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Key JSON to CSV features",
+        "description": "Everything you need to convert JSON to CSV quickly and reliably — from file upload and paste input to live preview and one-click download.",
+        "items": [
+          {
+            "title": "File Upload",
+            "description": "Drag and drop .json files or use the file picker for instant JSON to CSV conversion. Large exports from APIs and databases are supported within your browser memory limits.",
+            "icon": "RiFileUploadLine"
+          },
+          {
+            "title": "Paste JSON Text",
+            "description": "Copy JSON from your editor, terminal, or API response and paste it directly. This JSON to CSV input mode is perfect for quick one-off conversions without saving a file.",
+            "icon": "RiClipboardLine"
+          },
+          {
+            "title": "Live Table Preview",
+            "description": "Review headers, rows, and cell values in a paginated table before downloading. JSON to CSV preview helps you catch column mismatches and empty fields early.",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "CSV Download",
+            "description": "Export the result as a standard CSV file compatible with Excel, Google Sheets, and LibreOffice. Every JSON to CSV download uses a familiar comma-separated format.",
+            "icon": "RiDownload2Line"
+          },
+          {
+            "title": "Privacy First",
+            "description": "All JSON to CSV processing runs locally in your browser. Your data is never uploaded to our servers, which matters when you work with customer or internal records.",
+            "icon": "RiShieldCheckLine"
+          },
+          {
+            "title": "No Installation",
+            "description": "Skip desktop tools and command-line scripts. This online JSON to CSV converter works the moment you open the page — no install, no extension, no terminal required.",
+            "icon": "RiGlobalLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "JSON to CSV FAQ",
+        "description": "Common questions about JSON to CSV conversion, file formats, privacy, and how to use this free online tool.",
+        "items": [
+          {
+            "question": "What JSON format does this JSON to CSV converter support?",
+            "answer": "This JSON to CSV tool supports arrays of objects, such as [{\"name\":\"Alice\",\"age\":30},{\"name\":\"Bob\",\"age\":25}]. Each object becomes a row, and keys become column headers. Single objects or non-array JSON are not supported in the current version."
+          },
+          {
+            "question": "What is the difference between JSON and CSV?",
+            "answer": "JSON stores nested, structured data as objects and arrays. CSV stores flat tabular data as rows and columns separated by commas. A JSON to CSV converter transforms object arrays into spreadsheet-friendly rows so you can sort, filter, and share data in Excel or Google Sheets."
+          },
+          {
+            "question": "How do I convert a JSON file to CSV online?",
+            "answer": "Open this JSON to CSV page, upload your .json file or paste JSON text, click Convert, preview the table, then click Download CSV. The entire JSON to CSV workflow runs in your browser with no account required."
+          },
+          {
+            "question": "Is my data uploaded during JSON to CSV conversion?",
+            "answer": "No. All JSON to CSV processing happens entirely in your browser. Your JSON files and pasted text never leave your device, which makes this converter suitable for sensitive exports and internal data."
+          },
+          {
+            "question": "Is there a file size limit for JSON to CSV conversion?",
+            "answer": "There is no fixed server limit because files are processed locally. Very large JSON files may be limited by your browser memory, but typical API exports and database dumps work well with this JSON to CSV tool."
+          },
+          {
+            "question": "Does nested JSON get flattened during JSON to CSV conversion?",
+            "answer": "Nested objects and arrays inside values are converted to JSON strings in the CSV cell rather than expanded into extra columns. This JSON to CSV approach keeps row alignment simple while preserving nested data you can parse later if needed."
+          },
+          {
+            "question": "Can I convert JSON to CSV without installing software?",
+            "answer": "Yes. This is a browser-based JSON to CSV converter — no desktop app, Python script, or Excel plugin required. Open the page on any modern device and convert immediately."
+          },
+          {
+            "question": "Is JSON to CSV conversion free?",
+            "answer": "Yes. JSON to CSV conversion on CSV Viewer is completely free with no signup, no usage caps, and no hidden fees. Upload, preview, and download as often as you need."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Ready to convert JSON to CSV?",
+        "description": "Upload your JSON file or paste your data above to start a free JSON to CSV conversion. Preview the table, download CSV, and open it in your spreadsheet app in seconds.",
+        "buttons": [
+          {
+            "title": "Convert Now",
+            "url": "#hero",
+            "icon": "Zap"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

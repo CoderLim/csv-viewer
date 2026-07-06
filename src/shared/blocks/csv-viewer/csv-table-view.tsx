@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Download } from 'lucide-react';
 
 import { Button } from '@/shared/components/ui/button';
 import { ScrollArea, ScrollBar } from '@/shared/components/ui/scroll-area';
@@ -23,6 +23,8 @@ interface CsvTableViewProps {
   data: ParsedCsv;
   labels: CsvUploadLabels;
   onReupload: () => void;
+  onDownload?: () => void;
+  downloadLabel?: string;
   className?: string;
 }
 
@@ -37,6 +39,8 @@ export function CsvTableView({
   data,
   labels,
   onReupload,
+  onDownload,
+  downloadLabel,
   className,
 }: CsvTableViewProps) {
   const [currentPage, setCurrentPage] = useState(1);
@@ -62,9 +66,17 @@ export function CsvTableView({
             {formatLabel(labels.column_count, { count: data.headers.length })}
           </p>
         </div>
-        <Button variant="outline" size="sm" onClick={onReupload}>
-          {labels.reupload}
-        </Button>
+        <div className="flex flex-wrap items-center gap-2">
+          {onDownload && downloadLabel && (
+            <Button variant="default" size="sm" onClick={onDownload}>
+              <Download className="mr-1 size-4" />
+              {downloadLabel}
+            </Button>
+          )}
+          <Button variant="outline" size="sm" onClick={onReupload}>
+            {labels.reupload}
+          </Button>
+        </div>
       </div>
 
       <div className="border-border overflow-hidden rounded-lg border">
