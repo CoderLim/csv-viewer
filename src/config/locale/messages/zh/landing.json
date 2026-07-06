@@ -14,15 +14,29 @@
     "nav": {
       "items": [
         {
+          "title": "产品",
+          "icon": "RiApps2Line",
+          "children": [
+            {
+              "title": "CSV 查看器",
+              "description": "在浏览器中打开和浏览 CSV 文件",
+              "url": "/",
+              "target": "_self",
+              "icon": "RiTableLine"
+            },
+            {
+              "title": "JSON 转 CSV",
+              "description": "在线将 JSON 文件转换为 CSV",
+              "url": "/json-to-csv",
+              "target": "_self",
+              "icon": "RiFileTransferLine"
+            }
+          ]
+        },
+        {
           "title": "功能亮点",
           "url": "/#features",
           "icon": "Sparkles"
-        },
-        {
-          "title": "Chrome 插件",
-          "url": "https://chromewebstore.google.com/detail/csv-viewer-open-csv-files/glepaabojaplnagonhmlengglmiaimej?authuser=0&hl=en",
-          "target": "_blank",
-          "icon": "Chrome"
         },
         {
           "title": "博客",
@@ -60,6 +74,16 @@
         {
           "title": "产品",
           "children": [
+            {
+              "title": "CSV 查看器",
+              "url": "/",
+              "target": "_self"
+            },
+            {
+              "title": "JSON 转 CSV",
+              "url": "/json-to-csv",
+              "target": "_self"
+            },
             {
               "title": "功能亮点",
               "url": "/#features",

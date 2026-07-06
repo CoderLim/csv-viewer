@@ -2,6 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 import { Link } from '@/core/i18n/navigation';
 import { CsvHeroWorkspace } from '@/shared/blocks/csv-viewer';
+import { JsonToCsvWorkspace } from '@/shared/blocks/json-to-csv';
 import { Highlighter } from '@/shared/components/ui/highlighter';
 import { cn } from '@/shared/lib/utils';
 import { Section } from '@/shared/types/blocks/landing';
@@ -86,10 +87,19 @@ export function Hero({
         )}
       </div>
 
-      <CsvHeroWorkspace
-        labels={section.csv_upload}
-        className="mt-4 sm:mt-8"
-      />
+      {section.csv_upload && (
+        <CsvHeroWorkspace
+          labels={section.csv_upload}
+          className="mt-4 sm:mt-8"
+        />
+      )}
+
+      {section.json_tool && (
+        <JsonToCsvWorkspace
+          labels={section.json_tool}
+          className="mt-4 sm:mt-8"
+        />
+      )}
     </section>
   );
 }

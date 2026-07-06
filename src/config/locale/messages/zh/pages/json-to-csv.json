@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "title": "JSON 转 CSV 在线工具 — 免费 | CSV Viewer",
+    "description": "免费在线 JSON 转 CSV。上传文件或粘贴文本，表格预览后一键下载 CSV，浏览器本地处理，无需注册。",
+    "keywords": "JSON 转 CSV, JSON转CSV工具, 在线JSON转CSV, JSON转表格, 免费JSON转CSV"
+  },
+  "tool": {
+    "tab_upload": "上传文件",
+    "tab_paste": "粘贴 JSON",
+    "paste_placeholder": "在此粘贴 JSON 数组，例如 [{\"name\":\"Alice\",\"age\":30}]",
+    "convert": "转换",
+    "download_csv": "下载 CSV",
+    "drop_title": "将 JSON 文件拖放到此处",
+    "drop_hint": "或点击浏览文件",
+    "file_type_hint": "支持 .json 文件",
+    "parsing": "转换中...",
+    "error_invalid_type": "请上传 .json 文件",
+    "error_invalid_json": "JSON 格式无效",
+    "error_not_array": "JSON 必须是对象数组",
+    "error_empty": "JSON 数组为空",
+    "reupload": "重新转换",
+    "row_count": "{count} 行",
+    "column_count": "{count} 列",
+    "page_info": "第 {current} 页，共 {total} 页"
+  },
+  "page": {
+    "title": "JSON 转 CSV 在线工具",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "how_to_use",
+      "use_cases",
+      "json_csv_guide",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "在线将 JSON 转换为 CSV",
+        "highlight_text": "CSV",
+        "description": "上传 JSON 文件或粘贴文本，表格预览后下载 CSV — 无需注册。",
+        "tip": "🔒 数据仅在浏览器本地处理 — 不会上传到我们的服务器",
+        "show_avatars": false,
+        "show_award": false
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "label": "介绍",
+        "title": "什么是 JSON 转 CSV 工具",
+        "description": "JSON 转 CSV 工具用于将 JSON 对象数组转换为逗号分隔值格式，方便在 Excel、Google 表格等软件中打开。本免费在线 JSON 转 CSV 工具完全在浏览器运行，开发者、数据分析师和运营人员无需安装软件或注册账号，即可快速导出结构化数据。",
+        "image": {
+          "src": "/imgs/json-to-csv/introduce-main.png",
+          "alt": "JSON 转 CSV 转换预览"
+        },
+        "items": [
+          {
+            "title": "上传或粘贴 JSON",
+            "description": "拖放 .json 文件到浏览器，或从编辑器、API 客户端直接粘贴 JSON 文本。本 JSON 转 CSV 流程支持 [{\"name\":\"Alice\",\"age\":30}] 这类对象数组，一键即可开始转换。",
+            "icon": "RiUploadCloud2Line",
+            "image": {
+              "src": "/imgs/json-to-csv/upload.png",
+              "alt": "JSON 转 CSV 上传或粘贴"
+            }
+          },
+          {
+            "title": "表格预览",
+            "description": "下载前可在分页表格中预览 JSON 转 CSV 结果，查看列标题、行号和单元格内容。便于发现缺失字段、检查嵌套值，确认结构符合电子表格需求。",
+            "icon": "RiTableLine",
+            "image": {
+              "src": "/imgs/json-to-csv/table-preview.png",
+              "alt": "JSON 转 CSV 表格预览"
+            }
+          },
+          {
+            "title": "一键下载 CSV",
+            "description": "预览确认后即时下载 CSV 文件。每次 JSON 转 CSV 导出均兼容 Excel、Google 表格、LibreOffice Calc 等支持标准逗号分隔格式的工具。",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "/imgs/json-to-csv/download.png",
+              "alt": "JSON 转 CSV 下载"
+            }
+          },
+          {
+            "title": "100% 浏览器本地处理",
+            "description": "所有 JSON 转 CSV 处理均在浏览器本地完成，文件和粘贴内容不会离开设备。适合处理客户数据、内部导出和敏感 API 响应。",
+            "icon": "RiShieldCheckLine",
+            "image": {
+              "src": "/imgs/json-to-csv/privacy.png",
+              "alt": "隐私优先的 JSON 转 CSV 工具"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "how_to_use": {
+        "block": "features-step",
+        "id": "how-to-use",
+        "label": "使用步骤",
+        "title": "如何在线完成 JSON 转 CSV",
+        "description": "本 JSON 转 CSV 工具面向快速、一次性的导出场景。无需注册、命令行或桌面安装。打开页面，输入 JSON，预览表格，四步即可完成 JSON 转 CSV 并下载文件。",
+        "items": [
+          {
+            "title": "上传或粘贴 JSON",
+            "description": "从电脑选择 .json 文件，或将 JSON 文本粘贴到编辑区。JSON 转 CSV 工具要求输入为对象数组 — 每个对象对应一行，每个键名对应一列标题。",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "预览表格结果",
+            "description": "点击转换后，在分页表格中查看 JSON 转 CSV 输出。列标题、行号和单元格内容帮助你在分享给同事或导入电子表格前完成核对。",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "检查并验证数据",
+            "description": "留意空单元格、嵌套对象和数组字段在 JSON 转 CSV 过程中被序列化后的显示效果。这一步有助于在数据进入 Excel 或 Google 表格前发现格式问题。",
+            "icon": "RiSearchLine"
+          },
+          {
+            "title": "下载 CSV 文件",
+            "description": "确认预览无误后，点击下载 CSV 保存文件。JSON 转 CSV 导出可直接在电子表格软件中打开，无需额外转换步骤。",
+            "icon": "RiDownload2Line"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features",
+        "id": "use-cases",
+        "title": "常见的 JSON 转 CSV 使用场景",
+        "description": "当结构化数据需要进入电子表格时，团队常会使用 JSON 转 CSV 工具。API、数据库、电商平台和分析工具常导出 JSON，而财务和运营团队仍习惯使用 CSV。本工具在浏览器中架起这座桥梁。",
+        "items": [
+          {
+            "title": "API 与 REST 响应",
+            "description": "粘贴来自 Postman、curl 或应用日志的 JSON 响应，转为 CSV 用于报表。JSON 转 CSV 适合在不写脚本的情况下，快速查看接口返回的表格化结果。",
+            "icon": "RiCodeSSlashLine"
+          },
+          {
+            "title": "数据库查询导出",
+            "description": "将 MongoDB、PostgreSQL JSON 列或 ORM 导出的 JSON 行转为 CSV 便于分析。JSON 转 CSV 让非技术同事也能在 Excel 中查看查询结果。",
+            "icon": "RiDatabase2Line"
+          },
+          {
+            "title": "电商产品目录",
+            "description": "在上传至市场平台或 ERP 前，检查产品 feed、SKU 列表和库存 JSON。JSON 转 CSV 帮助以熟悉的表格形式扫描列、发现空白字段并验证目录数据。",
+            "icon": "RiShoppingBag3Line"
+          },
+          {
+            "title": "日志与分析数据",
+            "description": "将事件日志、埋点导出和看板 JSON 以表格形式打开。JSON 转 CSV 便于在电子表格中筛选行，而无需手动解析嵌套 JSON。",
+            "icon": "RiBarChart2Line"
+          },
+          {
+            "title": "开发者测试数据",
+            "description": "在编写导入脚本前检查种子文件、Mock API 数据和测试集。开发者通过 JSON 转 CSV 确认字段名和行数是否符合预期。",
+            "icon": "RiBugLine"
+          },
+          {
+            "title": "营销与 CRM 迁移",
+            "description": "将线索列表、活动导出和 CRM JSON 文件转为 CSV，用于邮件合并或 CRM 导入。JSON 转 CSV 让跨团队文件交接更简单高效。",
+            "icon": "RiMegaphoneLine"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "json_csv_guide": {
+        "block": "features-media",
+        "id": "json-csv-guide",
+        "title": "JSON 与 CSV 的区别：何时需要 JSON 转 CSV",
+        "description": "JSON 适合表达嵌套、层次化的结构化数据，API 广泛使用。CSV 适合扁平的表格数据，电子表格处理更高效。当你需要把结构化 JSON 变成可分享的表格时，JSON 转 CSV 是最快的路径。<br/><br/>本工具专注于对象数组：每个对象一行，键名作列标题，嵌套值保留为字符串。这让 JSON 转 CSV 适用于导出核对、质量检查和文件交接，而无需搭建复杂的 ETL 流程。",
+        "image": {
+          "src": "/imgs/json-to-csv/guide.png",
+          "alt": "JSON 转 CSV 格式说明"
+        },
+        "image_position": "right",
+        "items": [
+          {
+            "title": "结构化与表格化",
+            "description": "JSON 转 CSV 将对象数组展平为行列，同时把嵌套数据保留在单元格中便于阅读。",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "便于协作分享",
+            "description": "完成 JSON 转 CSV 后，同事可直接用 Excel 或 Google 表格打开，无需解析 JSON。",
+            "icon": "RiShareLine"
+          },
+          {
+            "title": "隐私优先",
+            "description": "本 JSON 转 CSV 工具在浏览器本地处理文件，适合敏感数据导出场景。",
+            "icon": "RiShieldCheckLine"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "label": "优势",
+        "title": "为什么选择我们的 JSON 转 CSV 工具",
+        "description": "快速、免费、隐私优先的 JSON 转 CSV 体验 — 为开发者、分析师和需要将结构化数据变成表格的任何人而设计。无需安装、无需注册、数据不上传服务器。",
+        "items": [
+          {
+            "title": "无需注册",
+            "description": "立即开始 JSON 转 CSV — 无需注册、邮箱或信用卡。打开页面，粘贴或上传 JSON，几秒内即可下载 CSV。",
+            "icon": "RiUserUnfollowLine",
+            "image": {
+              "src": "/imgs/json-to-csv/benefits-no-account.png",
+              "alt": "JSON 转 CSV 无需注册"
+            }
+          },
+          {
+            "title": "支持嵌套值",
+            "description": "JSON 值中的对象和数组在 JSON 转 CSV 过程中自动序列化为字符串，嵌套字段不会丢失，便于后续按需解析。",
+            "icon": "RiNodeTree",
+            "image": {
+              "src": "/imgs/json-to-csv/benefits-nested.png",
+              "alt": "JSON 转 CSV 嵌套值处理"
+            }
+          },
+          {
+            "title": "任意设备可用",
+            "description": "在桌面、平板或手机上使用本 JSON 转 CSV 工具。任何支持 JavaScript 的现代浏览器均可上传、预览和下载，无需插件。",
+            "icon": "RiDeviceLine",
+            "image": {
+              "src": "/imgs/json-to-csv/benefits-devices.png",
+              "alt": "JSON 转 CSV 多设备支持"
+            }
+          },
+          {
+            "title": "永久免费",
+            "description": "JSON 转 CSV 转换完全免费，无使用次数限制。工作、学习或个人项目均可随意使用。",
+            "icon": "RiGiftLine",
+            "image": {
+              "src": "/imgs/json-to-csv/benefits-free.png",
+              "alt": "免费 JSON 转 CSV 工具"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "JSON 转 CSV 核心功能",
+        "description": "快速可靠完成 JSON 转 CSV 所需的一切 — 从文件上传、文本粘贴到实时预览和一键下载。",
+        "items": [
+          {
+            "title": "文件上传",
+            "description": "拖放 .json 文件或使用文件选择器，即时开始 JSON 转 CSV。API 和数据库导出在浏览器内存允许范围内均可处理。",
+            "icon": "RiFileUploadLine"
+          },
+          {
+            "title": "粘贴 JSON 文本",
+            "description": "从编辑器、终端或 API 响应复制 JSON 并直接粘贴。这种 JSON 转 CSV 输入方式适合无需保存文件的快速转换。",
+            "icon": "RiClipboardLine"
+          },
+          {
+            "title": "实时表格预览",
+            "description": "下载前在分页表格中查看表头、行和单元格。JSON 转 CSV 预览有助于及早发现列不匹配和空字段问题。",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "CSV 下载",
+            "description": "导出标准 CSV 文件，兼容 Excel、Google 表格和 LibreOffice。每次 JSON 转 CSV 下载均采用通用逗号分隔格式。",
+            "icon": "RiDownload2Line"
+          },
+          {
+            "title": "隐私优先",
+            "description": "所有 JSON 转 CSV 处理在浏览器本地运行，数据不会上传服务器，适合处理客户或内部业务记录。",
+            "icon": "RiShieldCheckLine"
+          },
+          {
+            "title": "无需安装",
+            "description": "跳过桌面工具和命令行脚本。打开页面即可使用在线 JSON 转 CSV 功能 — 无需安装、扩展或终端操作。",
+            "icon": "RiGlobalLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "JSON 转 CSV 常见问题",
+        "description": "关于 JSON 转 CSV 转换、文件格式、隐私保护和使用方式的常见问题。",
+        "items": [
+          {
+            "question": "本 JSON 转 CSV 工具支持哪种 JSON 格式？",
+            "answer": "本 JSON 转 CSV 工具支持对象数组，例如 [{\"name\":\"Alice\",\"age\":30},{\"name\":\"Bob\",\"age\":25}]。每个对象成为一行，键名成为列标题。当前版本不支持单个对象或非数组 JSON。"
+          },
+          {
+            "question": "JSON 和 CSV 有什么区别？",
+            "answer": "JSON 以对象和数组存储嵌套结构化数据，CSV 以逗号分隔的行列表格数据。JSON 转 CSV 将对象数组转为电子表格友好的行，便于在 Excel 或 Google 表格中排序、筛选和分享。"
+          },
+          {
+            "question": "如何在线将 JSON 文件转为 CSV？",
+            "answer": "打开本 JSON 转 CSV 页面，上传 .json 文件或粘贴 JSON 文本，点击转换，预览表格后点击下载 CSV。整个 JSON 转 CSV 流程在浏览器完成，无需注册账号。"
+          },
+          {
+            "question": "JSON 转 CSV 时数据会上传吗？",
+            "answer": "不会。所有 JSON 转 CSV 处理完全在浏览器本地完成，JSON 文件和粘贴文本不会离开您的设备，适合处理敏感导出和内部数据。"
+          },
+          {
+            "question": "JSON 转 CSV 有文件大小限制吗？",
+            "answer": "由于没有服务器上传，不存在固定的服务端限制。超大 JSON 文件可能受浏览器内存影响，但常见的 API 导出和数据库备份均可正常使用本 JSON 转 CSV 工具。"
+          },
+          {
+            "question": "嵌套 JSON 在 JSON 转 CSV 时如何处理？",
+            "answer": "值中的嵌套对象和数组会转为 JSON 字符串写入 CSV 单元格，而非展开为额外列。这种 JSON 转 CSV 方式保持行对齐简单，同时保留可后续解析的嵌套数据。"
+          },
+          {
+            "question": "可以不安装软件就完成 JSON 转 CSV 吗？",
+            "answer": "可以。这是基于浏览器的 JSON 转 CSV 工具 — 无需桌面应用、Python 脚本或 Excel 插件。在任何现代设备上打开页面即可立即转换。"
+          },
+          {
+            "question": "JSON 转 CSV 转换免费吗？",
+            "answer": "完全免费。CSV Viewer 上的 JSON 转 CSV 功能无需注册、无使用上限、无隐藏费用。可随时上传、预览和下载。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "准备好将 JSON 转换为 CSV 了吗？",
+        "description": "在上方上传 JSON 文件或粘贴数据，开始免费 JSON 转 CSV 转换。预览表格、下载 CSV，几秒内即可在电子表格软件中打开。",
+        "buttons": [
+          {
+            "title": "立即转换",
+            "url": "#hero",
+            "icon": "Zap"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}
