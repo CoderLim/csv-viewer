@@ -17,6 +17,11 @@
         "title": "View CSV files instantly in your browser",
         "highlight_text": "instantly",
         "description": "CSV Viewer is a fast, free tool for opening, exploring, and analyzing CSV files.<br/>No download or installation required — just drag, drop, and explore.",
+        "announcement": {
+          "title": "Chrome extension now available",
+          "url": "https://chromewebstore.google.com/detail/csv-viewer-open-csv-files/glepaabojaplnagonhmlengglmiaimej?authuser=0&hl=en",
+          "target": "_blank"
+        },
         "tip": "🔒 Your files stay in your browser — nothing is uploaded to our servers",
         "show_avatars": false,
         "show_award": false,
@@ -294,6 +299,13 @@
             "url": "/#features",
             "target": "_self",
             "icon": "Zap"
+          },
+          {
+            "title": "Add to Chrome",
+            "url": "https://chromewebstore.google.com/detail/csv-viewer-open-csv-files/glepaabojaplnagonhmlengglmiaimej?authuser=0&hl=en",
+            "target": "_blank",
+            "icon": "Chrome",
+            "variant": "outline"
           }
         ],
         "className": "bg-muted"

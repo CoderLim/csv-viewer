@@ -19,6 +19,12 @@
           "icon": "Sparkles"
         },
         {
+          "title": "Chrome Extension",
+          "url": "https://chromewebstore.google.com/detail/csv-viewer-open-csv-files/glepaabojaplnagonhmlengglmiaimej?authuser=0&hl=en",
+          "target": "_blank",
+          "icon": "Chrome"
+        },
+        {
           "title": "Blog",
           "url": "/blog",
           "icon": "Newspaper"
@@ -58,6 +64,11 @@
               "title": "Features",
               "url": "/#features",
               "target": "_self"
+            },
+            {
+              "title": "Chrome Extension",
+              "url": "https://chromewebstore.google.com/detail/csv-viewer-open-csv-files/glepaabojaplnagonhmlengglmiaimej?authuser=0&hl=en",
+              "target": "_blank"
             }
           ]
         }

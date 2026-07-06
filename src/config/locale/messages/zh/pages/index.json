@@ -14,6 +14,11 @@
         "title": "在浏览器中即时查看 CSV 文件",
         "highlight_text": "即时",
         "description": "CSV Viewer 是一款快速、免费的 CSV 查看工具。<br/>无需下载或安装，拖放文件即可开始浏览。",
+        "announcement": {
+          "title": "Chrome 插件已上线",
+          "url": "https://chromewebstore.google.com/detail/csv-viewer-open-csv-files/glepaabojaplnagonhmlengglmiaimej?authuser=0&hl=en",
+          "target": "_blank"
+        },
         "tip": "🔒 文件仅在浏览器本地处理，不会上传到服务器",
         "show_avatars": false,
         "show_award": false,
@@ -195,6 +200,13 @@
             "url": "/#features",
             "target": "_self",
             "icon": "Zap"
+          },
+          {
+            "title": "安装 Chrome 插件",
+            "url": "https://chromewebstore.google.com/detail/csv-viewer-open-csv-files/glepaabojaplnagonhmlengglmiaimej?authuser=0&hl=en",
+            "target": "_blank",
+            "icon": "Chrome",
+            "variant": "outline"
           }
         ],
         "className": "bg-muted"
