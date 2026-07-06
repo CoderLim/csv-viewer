@@ -33,6 +33,7 @@
     "rbac:init": "tsx scripts/with-env.ts npx tsx scripts/init-rbac.ts",
     "rbac:assign": "tsx scripts/with-env.ts npx tsx scripts/assign-role.ts",
     "screenshots:home": "node scripts/capture-home-screenshots.mjs",
+    "screenshots:json-to-csv": "node scripts/capture-json-to-csv-screenshots.mjs",
     "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf:upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",

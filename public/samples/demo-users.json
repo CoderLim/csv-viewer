@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Ladonna Montgomery",
+    "age": 34,
+    "eyeColor": "brown",
+    "gender": "female",
+    "company": "ZILLACON",
+    "email": "ladonna@zillacon.com",
+    "phone": "+1 (555) 234-8891",
+    "address": { "city": "Springfield", "state": "IL" }
+  },
+  {
+    "name": "Sanford Miranda",
+    "age": 29,
+    "eyeColor": "blue",
+    "gender": "male",
+    "company": "QUILTIGEN",
+    "email": "sanford@quiltigen.com",
+    "phone": "+1 (555) 876-4420",
+    "address": { "city": "Portland", "state": "OR" }
+  },
+  {
+    "name": "Ella Chen",
+    "age": 41,
+    "eyeColor": "green",
+    "gender": "female",
+    "company": "DATACORE",
+    "email": "ella@datacore.io",
+    "phone": "+1 (555) 102-3378",
+    "address": { "city": "Austin", "state": "TX" }
+  },
+  {
+    "name": "Marcus Webb",
+    "age": 37,
+    "eyeColor": "hazel",
+    "gender": "male",
+    "company": "NEXALINK",
+    "email": "marcus@nexalink.com",
+    "phone": "+1 (555) 445-9012",
+    "address": { "city": "Denver", "state": "CO" }
+  },
+  {
+    "name": "Priya Sharma",
+    "age": 31,
+    "eyeColor": "brown",
+    "gender": "female",
+    "company": "CLOUDSHIFT",
+    "email": "priya@cloudshift.dev",
+    "phone": "+1 (555) 667-2284",
+    "address": { "city": "Seattle", "state": "WA" }
+  }
+]
