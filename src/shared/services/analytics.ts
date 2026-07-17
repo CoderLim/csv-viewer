@@ -28,12 +28,15 @@ export function getAnalyticsManagerWithConfigs(configs: Configs) {
     );
   }
 
-  // plausible
-  if (configs.plausible_domain && configs.plausible_src) {
+  // plausible (pageview.app)
+  const plausibleDomain = configs.plausible_domain || 'csvviewer.net';
+  const plausibleSrc =
+    configs.plausible_src || 'https://app.pageview.app/js/script.js';
+  if (plausibleDomain && plausibleSrc) {
     analytics.addProvider(
       new PlausibleAnalyticsProvider({
-        domain: configs.plausible_domain,
-        src: configs.plausible_src,
+        domain: plausibleDomain,
+        src: plausibleSrc,
       })
     );
   }
