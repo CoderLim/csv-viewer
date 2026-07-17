@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "title": "CSV to QBO Converter — Free QuickBooks Import Tool | CSV Viewer",
+    "description": "Convert bank CSV to QBO format for QuickBooks Online import. Upload your statement, map columns, preview transactions, and download a .qbo file in your browser.",
+    "keywords": "CSV to QBO, csv to qbo converter, convert csv to qbo, quickbooks import, bank csv to qbo, free csv to qbo"
+  },
+  "tool": {
+    "tab_upload": "Upload file",
+    "tab_paste": "Paste CSV",
+    "paste_placeholder": "Paste your bank CSV here, e.g.\nDate,Description,Amount\n01/15/2025,ACME HARDWARE,-42.50",
+    "convert": "Convert",
+    "continue": "Continue to preview",
+    "download_qbo": "Download QBO",
+    "generating": "Generating QBO...",
+    "drop_title": "Drop your CSV file here",
+    "drop_hint": "or click to browse",
+    "file_type_hint": "Supports .csv files from banks and credit cards",
+    "parsing": "Parsing...",
+    "error_invalid_type": "Please upload a .csv file",
+    "error_invalid_csv": "Invalid CSV format",
+    "error_parse_failed": "Failed to parse CSV file",
+    "error_empty": "The CSV is empty",
+    "reupload": "Upload another CSV",
+    "row_count": "{count} rows",
+    "column_count": "{count} columns",
+    "page_info": "Page {current} of {total}",
+    "mapping_title": "Map your columns",
+    "mapping_description": "Match your CSV columns to date, description, and amount fields for QuickBooks import.",
+    "column_date": "Date column",
+    "column_description": "Description column",
+    "column_amount": "Amount column",
+    "column_debit": "Debit column",
+    "column_credit": "Credit column",
+    "amount_mode_single": "Single amount column",
+    "amount_mode_split": "Separate debit & credit",
+    "advanced_options": "Advanced options",
+    "account_type": "Account type",
+    "account_type_checking": "Checking account",
+    "account_type_creditcard": "Credit card",
+    "currency": "Currency",
+    "bank_name": "Bank name",
+    "select_column": "Select column",
+    "error_mapping_incomplete": "Please complete all required column mappings",
+    "error_no_valid_rows": "No valid transactions found. Check your column mapping.",
+    "error_invalid_date": "Could not parse dates in the selected column",
+    "error_invalid_amount": "Could not parse amounts in the selected column",
+    "preview_date": "Date",
+    "preview_description": "Description",
+    "preview_amount": "Amount"
+  },
+  "page": {
+    "title": "CSV to QBO Converter",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "how_to_use",
+      "use_cases",
+      "csv_qbo_guide",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Convert CSV to QBO for QuickBooks",
+        "highlight_text": "QBO",
+        "description": "Upload a bank or credit card CSV, map your columns, preview transactions, and download a QuickBooks-ready .qbo file — no signup required.",
+        "tip": "🔒 Your financial data stays in your browser — nothing is sent to our servers",
+        "show_avatars": false,
+        "show_award": false
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "label": "Introduce",
+        "title": "What is a CSV to QBO Converter",
+        "description": "A CSV to QBO converter transforms bank transaction exports into the QBO (OFX) format that QuickBooks Online and Desktop accept for bank feed imports. Our free tool runs entirely in your browser, so you can import Chase, Bank of America, Wells Fargo, and other bank CSVs without desktop software.",
+        "image": {
+          "src": "/imgs/csv-to-qbo/introduce-main.png",
+          "alt": "CSV to QBO conversion preview"
+        },
+        "items": [
+          {
+            "title": "Upload Bank CSV",
+            "description": "Drag a bank or credit card .csv export into the browser or paste CSV text directly. This CSV to QBO workflow reads your transaction rows and prepares them for QuickBooks import.",
+            "icon": "RiUploadCloud2Line",
+            "image": {
+              "src": "/imgs/csv-to-qbo/upload.png",
+              "alt": "CSV to QBO upload"
+            }
+          },
+          {
+            "title": "Smart Column Mapping",
+            "description": "Auto-detect date, description, and amount columns from your bank export. Adjust mappings for separate debit and credit columns when needed.",
+            "icon": "RiTableLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/mapping.png",
+              "alt": "CSV to QBO column mapping"
+            }
+          },
+          {
+            "title": "Preview Transactions",
+            "description": "Review normalized dates, descriptions, and signed amounts before generating your QBO file. Catch mapping errors before importing into QuickBooks.",
+            "icon": "RiEyeLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/preview.png",
+              "alt": "CSV to QBO preview"
+            }
+          },
+          {
+            "title": "Download QBO File",
+            "description": "Download a .qbo file with FITID transaction IDs and proper OFX structure. Import it into QuickBooks via Banking > Upload transactions.",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "/imgs/csv-to-qbo/download.png",
+              "alt": "CSV to QBO download"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "how_to_use": {
+        "block": "features-step",
+        "id": "how-to-use",
+        "label": "How it works",
+        "title": "How to convert CSV to QBO online",
+        "description": "This CSV to QBO converter is built for bank statement imports. Upload your CSV, map columns, preview transactions, and download a QuickBooks-ready file in four steps.",
+        "items": [
+          {
+            "title": "Upload or paste your bank CSV",
+            "description": "Export transactions from your bank as CSV and upload the file, or paste the text directly. The CSV to QBO tool auto-detects common column names like Date, Description, and Amount.",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "Map your columns",
+            "description": "Confirm which columns contain the transaction date, description, and amount. Switch to debit/credit mode if your bank uses separate columns.",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "Preview transactions",
+            "description": "Review the normalized transaction list before generating the QBO file. Verify dates, amounts, and descriptions look correct.",
+            "icon": "RiEyeLine"
+          },
+          {
+            "title": "Download and import to QuickBooks",
+            "description": "Click Download QBO, then in QuickBooks Online go to Banking > Upload transactions and select your .qbo file.",
+            "icon": "RiDownload2Line"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features",
+        "id": "use-cases",
+        "title": "Common CSV to QBO use cases",
+        "description": "Teams use a CSV to QBO converter when bank exports need to flow into QuickBooks without manual data entry.",
+        "items": [
+          {
+            "title": "Bank statement imports",
+            "description": "Convert checking account CSV exports from Chase, BoA, Wells Fargo, and other banks into QBO for QuickBooks bank feed import.",
+            "icon": "RiBankLine"
+          },
+          {
+            "title": "Credit card reconciliation",
+            "description": "Transform credit card CSV statements into QBO format with CREDITCARD account type for QuickBooks reconciliation.",
+            "icon": "RiBankCardLine"
+          },
+          {
+            "title": "Bookkeeping workflows",
+            "description": "Accountants and bookkeepers batch-convert client bank exports to QBO instead of typing transactions manually.",
+            "icon": "RiBookOpenLine"
+          },
+          {
+            "title": "Duplicate-safe imports",
+            "description": "Generated QBO files include unique FITID codes so QuickBooks can detect and skip duplicate transactions on re-import.",
+            "icon": "RiShieldCheckLine"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "csv_qbo_guide": {
+        "block": "features-media",
+        "id": "csv-qbo-guide",
+        "title": "Why convert CSV to QBO for QuickBooks",
+        "description": "QuickBooks bank feed imports work best with QBO (OFX) files because they include structured metadata — transaction IDs, account types, and date ranges — that plain CSV lacks.<br/><br/>While QuickBooks Online can import CSV directly, the process requires manual column mapping every time and often fails on date or amount formats. A CSV to QBO converter handles the OFX structure automatically so your import succeeds on the first try.",
+        "image": {
+          "src": "/imgs/csv-to-qbo/guide.png",
+          "alt": "CSV to QBO format guide"
+        },
+        "image_position": "right",
+        "items": [
+          {
+            "title": "Structured import",
+            "description": "QBO files include FITID transaction IDs and proper OFX headers that QuickBooks reads natively.",
+            "icon": "RiFileList3Line"
+          },
+          {
+            "title": "Any bank CSV",
+            "description": "Map columns from any bank export — single amount or separate debit/credit columns.",
+            "icon": "RiExchangeLine"
+          },
+          {
+            "title": "Private by design",
+            "description": "All CSV to QBO conversion runs locally in your browser — your financial data never leaves your device.",
+            "icon": "RiShieldCheckLine"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "label": "Benefits",
+        "title": "Why use our CSV to QBO converter",
+        "description": "A fast, free, and privacy-first CSV to QBO experience for QuickBooks users — no install, no account, and no upload to our servers.",
+        "items": [
+          {
+            "title": "No Account Required",
+            "description": "Start converting immediately — no signup or credit card. Upload your bank CSV and download a QBO file in seconds.",
+            "icon": "RiUserUnfollowLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/benefits-no-account.png",
+              "alt": "CSV to QBO no account"
+            }
+          },
+          {
+            "title": "Auto Column Detection",
+            "description": "Common bank column names are detected automatically. Adjust mappings only when your export uses non-standard headers.",
+            "icon": "RiMagicLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/benefits-auto-detect.png",
+              "alt": "CSV to QBO auto detect"
+            }
+          },
+          {
+            "title": "Works on Any Device",
+            "description": "Use this CSV to QBO converter on desktop, tablet, or mobile. Any modern browser can upload, map, and download.",
+            "icon": "RiDeviceLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/benefits-devices.png",
+              "alt": "CSV to QBO any device"
+            }
+          },
+          {
+            "title": "Free Forever",
+            "description": "CSV to QBO conversion is completely free with no usage limits. Convert as many bank statements as you need.",
+            "icon": "RiGiftLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/benefits-free.png",
+              "alt": "free CSV to QBO converter"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Key CSV to QBO features",
+        "description": "Everything you need to convert bank CSV to QBO for QuickBooks — from upload and column mapping to preview and download.",
+        "items": [
+          {
+            "title": "File Upload",
+            "description": "Drag and drop .csv bank exports or use the file picker. Supports exports from major US and international banks.",
+            "icon": "RiFileUploadLine"
+          },
+          {
+            "title": "Paste CSV Text",
+            "description": "Copy CSV from your spreadsheet or bank portal and paste it directly for quick one-off conversions.",
+            "icon": "RiClipboardLine"
+          },
+          {
+            "title": "Column Mapping",
+            "description": "Map date, description, and amount columns with auto-detection. Support single amount or separate debit/credit columns.",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "QBO Download",
+            "description": "Download a valid .qbo file with OFX structure, FITID codes, and Intuit headers ready for QuickBooks import.",
+            "icon": "RiDownload2Line"
+          },
+          {
+            "title": "Privacy First",
+            "description": "All processing runs locally in your browser. Your bank data is never uploaded to our servers.",
+            "icon": "RiShieldCheckLine"
+          },
+          {
+            "title": "No Installation",
+            "description": "Skip desktop converters and plugins. This online CSV to QBO tool works the moment you open the page.",
+            "icon": "RiGlobalLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "CSV to QBO FAQ",
+        "description": "Common questions about CSV to QBO conversion, QuickBooks import, and how to use this free online tool.",
+        "items": [
+          {
+            "question": "How do I convert a CSV file to QBO online?",
+            "answer": "Upload your bank CSV or paste the text, map your date, description, and amount columns, preview the transactions, then click Download QBO. Import the file in QuickBooks via Banking > Upload transactions."
+          },
+          {
+            "question": "What is a QBO file?",
+            "answer": "A QBO file is a bank statement in OFX (Open Financial Exchange) format with Intuit-specific headers. QuickBooks uses it to import transactions into the bank feed with duplicate detection via FITID codes."
+          },
+          {
+            "question": "Which banks are supported?",
+            "answer": "Any bank that exports transactions as CSV with date, description, and amount columns. This includes Chase, Bank of America, Wells Fargo, Citi, Capital One, and hundreds of others worldwide."
+          },
+          {
+            "question": "Is my financial data uploaded?",
+            "answer": "No. All CSV to QBO conversion happens entirely in your browser. Your bank CSV never leaves your device."
+          },
+          {
+            "question": "What if my bank uses separate Debit and Credit columns?",
+            "answer": "Switch to Separate debit & credit mode in the column mapping step. Select your Debit and Credit columns and the converter will merge them into signed amounts."
+          },
+          {
+            "question": "How do I import the QBO file into QuickBooks Online?",
+            "answer": "In QuickBooks Online, go to Banking > Transactions > Upload transactions. Select your .qbo file, choose the bank account, and review the imported transactions."
+          },
+          {
+            "question": "Is CSV to QBO conversion free?",
+            "answer": "Yes. CSV to QBO conversion on CSV Viewer is completely free with no signup, no usage caps, and no hidden fees."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Ready to convert CSV to QBO?",
+        "description": "Upload your bank CSV above to start a free CSV to QBO conversion. Map your columns, preview transactions, and download a QuickBooks-ready file.",
+        "buttons": [
+          {
+            "title": "Convert Now",
+            "url": "#hero",
+            "icon": "Zap"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

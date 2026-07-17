@@ -37,6 +37,13 @@
               "url": "/csv-to-pdf",
               "target": "_self",
               "icon": "RiFilePdf2Line"
+            },
+            {
+              "title": "CSV to QBO",
+              "description": "Convert bank CSV to QBO for QuickBooks import",
+              "url": "/csv-to-qbo",
+              "target": "_self",
+              "icon": "RiBankLine"
             }
           ]
         },
@@ -94,6 +101,11 @@
             {
               "title": "CSV to PDF",
               "url": "/csv-to-pdf",
+              "target": "_self"
+            },
+            {
+              "title": "CSV to QBO",
+              "url": "/csv-to-qbo",
               "target": "_self"
             },
             {

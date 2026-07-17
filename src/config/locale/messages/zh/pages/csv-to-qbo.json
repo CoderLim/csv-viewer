@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "title": "CSV 转 QBO 转换器 — 免费 QuickBooks 导入工具 | CSV Viewer",
+    "description": "将银行 CSV 转换为 QBO 格式，用于 QuickBooks Online 导入。上传账单、映射列、预览交易，在浏览器中下载 .qbo 文件。",
+    "keywords": "CSV 转 QBO, csv to qbo, csv转qbo, quickbooks 导入, 银行csv转qbo, 免费csv转qbo"
+  },
+  "tool": {
+    "tab_upload": "上传文件",
+    "tab_paste": "粘贴 CSV",
+    "paste_placeholder": "在此粘贴银行 CSV，例如：\nDate,Description,Amount\n01/15/2025,ACME HARDWARE,-42.50",
+    "convert": "转换",
+    "continue": "继续预览",
+    "download_qbo": "下载 QBO",
+    "generating": "正在生成 QBO...",
+    "drop_title": "将 CSV 文件拖放到此处",
+    "drop_hint": "或点击浏览",
+    "file_type_hint": "支持银行和信用卡导出的 .csv 文件",
+    "parsing": "解析中...",
+    "error_invalid_type": "请上传 .csv 文件",
+    "error_invalid_csv": "CSV 格式无效",
+    "error_parse_failed": "CSV 文件解析失败",
+    "error_empty": "CSV 为空",
+    "reupload": "重新导入 CSV",
+    "row_count": "{count} 行",
+    "column_count": "{count} 列",
+    "page_info": "第 {current} 页，共 {total} 页",
+    "mapping_title": "映射列",
+    "mapping_description": "将 CSV 列对应到日期、描述和金额字段，以便导入 QuickBooks。",
+    "column_date": "日期列",
+    "column_description": "描述列",
+    "column_amount": "金额列",
+    "column_debit": "借方列",
+    "column_credit": "贷方列",
+    "amount_mode_single": "单列金额",
+    "amount_mode_split": "分列借方和贷方",
+    "advanced_options": "高级选项",
+    "account_type": "账户类型",
+    "account_type_checking": "支票账户",
+    "account_type_creditcard": "信用卡",
+    "currency": "币种",
+    "bank_name": "银行名称",
+    "select_column": "选择列",
+    "error_mapping_incomplete": "请完成所有必填列映射",
+    "error_no_valid_rows": "未找到有效交易，请检查列映射",
+    "error_invalid_date": "无法解析所选列中的日期",
+    "error_invalid_amount": "无法解析所选列中的金额",
+    "preview_date": "日期",
+    "preview_description": "描述",
+    "preview_amount": "金额"
+  },
+  "page": {
+    "title": "CSV 转 QBO 转换器",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "how_to_use",
+      "use_cases",
+      "csv_qbo_guide",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "将 CSV 转换为 QuickBooks 可用的 QBO",
+        "highlight_text": "QBO",
+        "description": "上传银行或信用卡 CSV，映射列、预览交易，下载 QuickBooks 可用的 .qbo 文件 — 无需注册。",
+        "tip": "🔒 您的财务数据保留在浏览器中 — 不会发送到我们的服务器",
+        "show_avatars": false,
+        "show_award": false
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "label": "介绍",
+        "title": "什么是 CSV 转 QBO 转换器",
+        "description": "CSV 转 QBO 转换器将银行交易导出文件转换为 QuickBooks Online 和 Desktop 可接受的 QBO（OFX）格式，用于银行流水导入。我们的免费工具完全在浏览器中运行，无需安装桌面软件即可导入 Chase、美国银行、富国银行等 CSV 文件。",
+        "image": {
+          "src": "/imgs/csv-to-qbo/introduce-main.png",
+          "alt": "CSV 转 QBO 转换预览"
+        },
+        "items": [
+          {
+            "title": "上传银行 CSV",
+            "description": "将银行或信用卡 .csv 导出文件拖入浏览器，或直接粘贴 CSV 文本。工具会读取交易行并准备 QuickBooks 导入。",
+            "icon": "RiUploadCloud2Line",
+            "image": {
+              "src": "/imgs/csv-to-qbo/upload.png",
+              "alt": "CSV 转 QBO 上传"
+            }
+          },
+          {
+            "title": "智能列映射",
+            "description": "自动识别日期、描述和金额列。如需处理分列的借方和贷方，可手动调整映射。",
+            "icon": "RiTableLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/mapping.png",
+              "alt": "CSV 转 QBO 列映射"
+            }
+          },
+          {
+            "title": "预览交易",
+            "description": "生成 QBO 文件前，预览标准化后的日期、描述和带符号金额，避免映射错误。",
+            "icon": "RiEyeLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/preview.png",
+              "alt": "CSV 转 QBO 预览"
+            }
+          },
+          {
+            "title": "下载 QBO 文件",
+            "description": "下载包含 FITID 交易 ID 和标准 OFX 结构的 .qbo 文件，通过 QuickBooks 的 Banking > Upload transactions 导入。",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "/imgs/csv-to-qbo/download.png",
+              "alt": "CSV 转 QBO 下载"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "how_to_use": {
+        "block": "features-step",
+        "id": "how-to-use",
+        "label": "使用方法",
+        "title": "如何在线将 CSV 转换为 QBO",
+        "description": "本工具专为银行流水导入设计。上传 CSV、映射列、预览交易，四步即可下载 QuickBooks 可用文件。",
+        "items": [
+          {
+            "title": "上传或粘贴银行 CSV",
+            "description": "从银行导出交易 CSV 并上传，或直接粘贴文本。工具会自动识别 Date、Description、Amount 等常见列名。",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "映射列",
+            "description": "确认日期、描述和金额对应的列。若银行使用分列的借方和贷方，切换到分列模式。",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "预览交易",
+            "description": "生成 QBO 前预览标准化交易列表，核对日期、金额和描述是否正确。",
+            "icon": "RiEyeLine"
+          },
+          {
+            "title": "下载并导入 QuickBooks",
+            "description": "点击下载 QBO，然后在 QuickBooks Online 中进入 Banking > Upload transactions 选择 .qbo 文件。",
+            "icon": "RiDownload2Line"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features",
+        "id": "use-cases",
+        "title": "CSV 转 QBO 常见用途",
+        "description": "当银行导出需要导入 QuickBooks 且不想手动录入时，可使用 CSV 转 QBO 转换器。",
+        "items": [
+          {
+            "title": "银行流水导入",
+            "description": "将 Chase、美国银行、富国银行等支票账户 CSV 导出转换为 QBO，导入 QuickBooks 银行流水。",
+            "icon": "RiBankLine"
+          },
+          {
+            "title": "信用卡对账",
+            "description": "将信用卡 CSV 账单转换为 QBO 格式，选择 CREDITCARD 账户类型用于 QuickBooks 对账。",
+            "icon": "RiBankCardLine"
+          },
+          {
+            "title": "记账工作流",
+            "description": "会计和记账人员批量将客户银行导出转为 QBO，避免逐笔手工录入。",
+            "icon": "RiBookOpenLine"
+          },
+          {
+            "title": "防重复导入",
+            "description": "生成的 QBO 文件包含唯一 FITID 编码，QuickBooks 可在重复导入时识别并跳过相同交易。",
+            "icon": "RiShieldCheckLine"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "csv_qbo_guide": {
+        "block": "features-media",
+        "id": "csv-qbo-guide",
+        "title": "为什么导入 QuickBooks 要转 QBO",
+        "description": "QuickBooks 银行流水导入最适合 QBO（OFX）文件，因为它包含结构化元数据 — 交易 ID、账户类型和日期范围 — 这些是普通 CSV 所缺少的。<br/><br/>虽然 QuickBooks Online 可直接导入 CSV，但每次都需要手动映射列，且常因日期或金额格式失败。CSV 转 QBO 转换器会自动处理 OFX 结构，让导入一次成功。",
+        "image": {
+          "src": "/imgs/csv-to-qbo/guide.png",
+          "alt": "CSV 转 QBO 格式说明"
+        },
+        "image_position": "right",
+        "items": [
+          {
+            "title": "结构化导入",
+            "description": "QBO 文件包含 FITID 交易 ID 和标准 OFX 头，QuickBooks 可原生读取。",
+            "icon": "RiFileList3Line"
+          },
+          {
+            "title": "兼容各银行 CSV",
+            "description": "映射任意银行导出的列 — 支持单列金额或分列借方/贷方。",
+            "icon": "RiExchangeLine"
+          },
+          {
+            "title": "隐私优先",
+            "description": "所有 CSV 转 QBO 转换均在浏览器本地完成 — 财务数据不会离开您的设备。",
+            "icon": "RiShieldCheckLine"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "label": "优势",
+        "title": "为什么选择我们的 CSV 转 QBO 转换器",
+        "description": "为 QuickBooks 用户打造的快速、免费、隐私优先的 CSV 转 QBO 体验 — 无需安装、无需注册、不上传服务器。",
+        "items": [
+          {
+            "title": "无需注册",
+            "description": "立即开始转换 — 无需注册或信用卡。上传银行 CSV，几秒内下载 QBO 文件。",
+            "icon": "RiUserUnfollowLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/benefits-no-account.png",
+              "alt": "CSV 转 QBO 无需注册"
+            }
+          },
+          {
+            "title": "自动列识别",
+            "description": "常见银行列名自动识别。仅在导出使用非标准表头时才需手动调整。",
+            "icon": "RiMagicLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/benefits-auto-detect.png",
+              "alt": "CSV 转 QBO 自动识别"
+            }
+          },
+          {
+            "title": "全设备可用",
+            "description": "在桌面、平板或手机上使用。任何现代浏览器均可上传、映射和下载。",
+            "icon": "RiDeviceLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/benefits-devices.png",
+              "alt": "CSV 转 QBO 全设备"
+            }
+          },
+          {
+            "title": "永久免费",
+            "description": "CSV 转 QBO 完全免费，无使用限制。按需转换任意数量的银行账单。",
+            "icon": "RiGiftLine",
+            "image": {
+              "src": "/imgs/csv-to-qbo/benefits-free.png",
+              "alt": "免费 CSV 转 QBO"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "CSV 转 QBO 核心功能",
+        "description": "将银行 CSV 转为 QuickBooks 可用 QBO 所需的全部功能 — 从上传、列映射到预览和下载。",
+        "items": [
+          {
+            "title": "文件上传",
+            "description": "拖放 .csv 银行导出或使用文件选择器。支持美国及国际主要银行导出。",
+            "icon": "RiFileUploadLine"
+          },
+          {
+            "title": "粘贴 CSV 文本",
+            "description": "从电子表格或银行门户复制 CSV 并直接粘贴，适合快速单次转换。",
+            "icon": "RiClipboardLine"
+          },
+          {
+            "title": "列映射",
+            "description": "自动识别并映射日期、描述和金额列。支持单列金额或分列借方/贷方。",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "QBO 下载",
+            "description": "下载符合 OFX 结构、含 FITID 和 Intuit 头的有效 .qbo 文件，可直接导入 QuickBooks。",
+            "icon": "RiDownload2Line"
+          },
+          {
+            "title": "隐私优先",
+            "description": "所有处理均在浏览器本地完成。银行数据不会上传到我们的服务器。",
+            "icon": "RiShieldCheckLine"
+          },
+          {
+            "title": "无需安装",
+            "description": "无需桌面转换器或插件。打开页面即可使用在线 CSV 转 QBO 工具。",
+            "icon": "RiGlobalLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "CSV 转 QBO 常见问题",
+        "description": "关于 CSV 转 QBO、QuickBooks 导入及本免费在线工具的常见问题。",
+        "items": [
+          {
+            "question": "如何在线将 CSV 转换为 QBO？",
+            "answer": "上传银行 CSV 或粘贴文本，映射日期、描述和金额列，预览交易后点击下载 QBO。在 QuickBooks 中通过 Banking > Upload transactions 导入该文件。"
+          },
+          {
+            "question": "什么是 QBO 文件？",
+            "answer": "QBO 文件是带 Intuit 专用头的 OFX（开放金融交换）格式银行流水文件。QuickBooks 用它导入银行流水，并通过 FITID 编码检测重复交易。"
+          },
+          {
+            "question": "支持哪些银行？",
+            "answer": "任何能导出含日期、描述和金额列的 CSV 的银行均可，包括 Chase、美国银行、富国银行、花旗、Capital One 及全球数百家银行。"
+          },
+          {
+            "question": "财务数据会上传吗？",
+            "answer": "不会。所有 CSV 转 QBO 转换完全在浏览器中完成，银行 CSV 不会离开您的设备。"
+          },
+          {
+            "question": "银行使用分列借方和贷方怎么办？",
+            "answer": "在列映射步骤切换到「分列借方和贷方」模式，选择借方列和贷方列，转换器会合并为带符号金额。"
+          },
+          {
+            "question": "如何将 QBO 文件导入 QuickBooks Online？",
+            "answer": "在 QuickBooks Online 中进入 Banking > Transactions > Upload transactions，选择 .qbo 文件，指定银行账户后审核导入的交易。"
+          },
+          {
+            "question": "CSV 转 QBO 免费吗？",
+            "answer": "是的。CSV Viewer 上的 CSV 转 QBO 完全免费，无需注册，无使用上限，无隐藏费用。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "准备好将 CSV 转换为 QBO 了吗？",
+        "description": "在上方上传银行 CSV 开始免费转换。映射列、预览交易，下载 QuickBooks 可用文件。",
+        "buttons": [
+          {
+            "title": "立即转换",
+            "url": "#hero",
+            "icon": "Zap"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

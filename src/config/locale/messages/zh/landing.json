@@ -37,6 +37,13 @@
               "url": "/csv-to-pdf",
               "target": "_self",
               "icon": "RiFilePdf2Line"
+            },
+            {
+              "title": "CSV 转 QBO",
+              "description": "将银行 CSV 转换为 QBO，用于 QuickBooks 导入",
+              "url": "/csv-to-qbo",
+              "target": "_self",
+              "icon": "RiBankLine"
             }
           ]
         },
@@ -94,6 +101,11 @@
             {
               "title": "CSV 转 PDF",
               "url": "/csv-to-pdf",
+              "target": "_self"
+            },
+            {
+              "title": "CSV 转 QBO",
+              "url": "/csv-to-qbo",
               "target": "_self"
             },
             {
