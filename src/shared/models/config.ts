@@ -1,3 +1,5 @@
+import { existsSync } from 'node:fs';
+
 import { revalidateTag, unstable_cache } from 'next/cache';
 
 import { db } from '@/core/db';
@@ -16,6 +18,23 @@ export type UpdateConfig = Partial<Omit<NewConfig, 'name'>>;
 export type Configs = Record<string, string>;
 
 export const CACHE_TAG_CONFIGS = 'configs';
+
+function isDatabaseReachable(): boolean {
+  if (envConfigs.database_provider === 'd1') {
+    return isCloudflareWorker;
+  }
+
+  const databaseUrl = envConfigs.database_url;
+  if (!databaseUrl) {
+    return false;
+  }
+
+  if (databaseUrl.startsWith('file:')) {
+    return existsSync(databaseUrl.slice('file:'.length));
+  }
+
+  return true;
+}
 
 export async function saveConfigs(configs: Record<string, string>) {
   const database = db();
@@ -82,6 +101,9 @@ export const getConfigs = unstable_cache(
     if (!envConfigs.database_url && envConfigs.database_provider !== 'd1') {
       return configs;
     }
+    if (!isDatabaseReachable()) {
+      return configs;
+    }
 
     const result = await db().select().from(config);
     if (!result) {
@@ -105,12 +127,12 @@ export async function getAllConfigs(): Promise<Configs> {
   let dbConfigs: Configs = {};
 
   // only get configs from db in server side
-  const hasDb = envConfigs.database_url || (envConfigs.database_provider === 'd1' && isCloudflareWorker);
+  const hasDb = isDatabaseReachable();
   if (typeof window === 'undefined' && hasDb) {
     try {
       dbConfigs = await getConfigs();
     } catch (e) {
-      console.log(`get configs from db failed:`, e);
+      console.warn('get configs from db failed:', e);
       dbConfigs = {};
     }
   }

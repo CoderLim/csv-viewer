@@ -55,4 +55,5 @@ export const localeMessagesPaths = [
   'pages/blog',
   'pages/updates',
   'pages/json-to-csv',
+  'pages/csv-to-pdf',
 ];

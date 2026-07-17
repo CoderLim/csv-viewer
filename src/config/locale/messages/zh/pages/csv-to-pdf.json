@@ -1,0 +1,332 @@
+{
+  "metadata": {
+    "title": "CSV 转 PDF 转换器 — 免费在线工具 | CSV Viewer",
+    "description": "免费在线将 CSV 转换为 PDF。上传文件或粘贴文本，在表格中预览，并在浏览器中即时下载整洁的 PDF。",
+    "keywords": "CSV 转 PDF, csv to pdf, csv 转 pdf 转换器, 在线 csv 转 pdf, 免费 csv 转 pdf"
+  },
+  "tool": {
+    "tab_upload": "上传文件",
+    "tab_paste": "粘贴 CSV",
+    "paste_placeholder": "在此粘贴你的 CSV 数据，例如 name,age\nAlice,30",
+    "convert": "转换",
+    "download_pdf": "下载 PDF",
+    "generating": "正在生成 PDF...",
+    "drop_title": "将 CSV 文件拖到此处",
+    "drop_hint": "或点击浏览选择",
+    "file_type_hint": "支持 .csv 文件",
+    "parsing": "解析中...",
+    "error_invalid_type": "请上传 .csv 文件",
+    "error_invalid_csv": "CSV 格式无效",
+    "error_parse_failed": "解析 CSV 文件失败",
+    "error_empty": "CSV 内容为空",
+    "reupload": "转换另一个",
+    "row_count": "{count} 行",
+    "column_count": "{count} 列",
+    "page_info": "第 {current} / {total} 页"
+  },
+  "page": {
+    "title": "CSV 转 PDF 转换器",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "how_to_use",
+      "use_cases",
+      "csv_pdf_guide",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "即刻将 CSV 转换为 PDF",
+        "highlight_text": "PDF",
+        "description": "上传 CSV 文件或粘贴文本，在表格中预览，并下载整洁的 PDF —— 无需注册。",
+        "tip": "🔒 你的数据只保留在浏览器中 —— 不会发送到我们的服务器",
+        "show_avatars": false,
+        "show_award": false
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "label": "介绍",
+        "title": "什么是 CSV 转 PDF 转换器",
+        "description": "CSV 转 PDF 转换器可以把逗号分隔的数据变成可打印、可分享的 PDF 文档。我们的免费在线 CSV 转 PDF 工具完全在浏览器中运行，开发者、分析师和业务团队无需安装软件或注册账号即可生成整洁的表格 PDF。",
+        "image": {
+          "src": "/imgs/csv-to-pdf/introduce-main.png",
+          "alt": "CSV 转 PDF 转换预览"
+        },
+        "items": [
+          {
+            "title": "上传或粘贴 CSV",
+            "description": "把 .csv 文件拖入浏览器，或直接从编辑器、导出文件中粘贴 CSV 文本。这套 CSV 转 PDF 流程会读取表头行和数据行，一键开始转换。",
+            "icon": "RiUploadCloud2Line",
+            "image": {
+              "src": "/imgs/csv-to-pdf/upload.png",
+              "alt": "CSV 转 PDF 上传或粘贴"
+            }
+          },
+          {
+            "title": "表格预览",
+            "description": "在下载前，你可以在整洁的分页表格中查看 CSV 转 PDF 的结果，包含列标题和行号。确认列是否对齐、数据是否正确，再生成 PDF。",
+            "icon": "RiTableLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/table-preview.png",
+              "alt": "CSV 转 PDF 表格预览"
+            }
+          },
+          {
+            "title": "一键下载 PDF",
+            "description": "预览后即可立即下载转换好的 PDF。每次 CSV 转 PDF 导出都会渲染带自动分页的格式化表格，随时可打印或分享。",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "/imgs/csv-to-pdf/download.png",
+              "alt": "CSV 转 PDF 下载"
+            }
+          },
+          {
+            "title": "100% 浏览器端处理",
+            "description": "所有 CSV 转 PDF 处理都在你的浏览器本地完成。文件和粘贴的文本绝不会离开你的设备，非常适合客户数据、内部报表和敏感导出。",
+            "icon": "RiShieldCheckLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/privacy.png",
+              "alt": "隐私安全的 CSV 转 PDF 转换器"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "how_to_use": {
+        "block": "features-step",
+        "id": "how-to-use",
+        "label": "使用方法",
+        "title": "如何在线将 CSV 转换为 PDF",
+        "description": "这款 CSV 转 PDF 转换器为快速、一次性的文档而生。无需注册账号，无需命令行，也无需安装桌面软件。打开页面，添加 CSV，预览表格，四步即可下载 PDF。",
+        "items": [
+          {
+            "title": "上传或粘贴 CSV",
+            "description": "从电脑选择 .csv 文件，或把 CSV 文本粘贴到编辑框。CSV 转 PDF 工具会把第一行作为列标题，其后的每一行作为表格数据行。",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "预览表格",
+            "description": "点击「转换」，在分页表格中查看 CSV 转 PDF 的结果。列标题、行号和单元格内容可帮助你在生成文档前确认布局。",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "检查并核对数据",
+            "description": "在 CSV 转 PDF 导出前，检查是否有列错位、空单元格或编码问题。这一步可帮助你在生成 PDF 前发现格式问题。",
+            "icon": "RiSearchLine"
+          },
+          {
+            "title": "下载 PDF 文件",
+            "description": "当预览无误时，点击「下载 PDF」保存文档。CSV 转 PDF 的输出包含格式化表格与自动分页，随时可打印或通过邮件发送。",
+            "icon": "RiDownload2Line"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features",
+        "id": "use-cases",
+        "title": "常见的 CSV 转 PDF 使用场景",
+        "description": "每当表格数据需要变成固定、可分享的文档时，团队就会用到 CSV 转 PDF 转换器。电子表格、数据库和分析工具导出 CSV，而报表、发票和归档往往需要 PDF。这款工具在浏览器中弥合了两者之间的鸿沟。",
+        "items": [
+          {
+            "title": "报表与汇总",
+            "description": "把导出的指标、销售数据和 KPI 表格变成精美的 PDF 交给相关方。当你需要一份可直接打印的报表又不想打开 Excel 时，CSV 转 PDF 流程非常合适。",
+            "icon": "RiBarChart2Line"
+          },
+          {
+            "title": "发票与收据",
+            "description": "把 CSV 中的账单行和明细项转换成整洁的 PDF 文档。CSV 转 PDF 让财务记录在任何设备上都以相同方式打开，便于分享。",
+            "icon": "RiBillLine"
+          },
+          {
+            "title": "数据归档",
+            "description": "把 CSV 数据快照冻结为 PDF，让布局永不改变。CSV 转 PDF 适合合规、留档以及表格数据的长期保存。",
+            "icon": "RiArchiveLine"
+          },
+          {
+            "title": "可打印的表格",
+            "description": "为打印准备产品清单、排班表和库存表。CSV 转 PDF 提供一致的分页与表头，无需再折腾电子表格的打印设置。",
+            "icon": "RiPrinterLine"
+          },
+          {
+            "title": "客户交付物",
+            "description": "把查询结果和数据导出以专业 PDF 的形式分享给非技术客户。当对方只需阅读表格时，CSV 转 PDF 让交接变得简单。",
+            "icon": "RiUserSharedLine"
+          },
+          {
+            "title": "文档附件",
+            "description": "以通用可读的格式把数据表格附加到工单、邮件和知识库中。CSV 转 PDF 把原始导出变成任何人都能打开的整洁文档。",
+            "icon": "RiFileTextLine"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "csv_pdf_guide": {
+        "block": "features-media",
+        "id": "csv-pdf-guide",
+        "title": "CSV 与 PDF：何时使用 CSV 转 PDF 转换器",
+        "description": "CSV 为编辑和导入而设计 —— 电子表格和数据库都喜欢它，因为每个值都整齐地排列在逗号分隔的表格中。PDF 为分享和打印而设计 —— 它锁定布局，让表格在任何地方看起来都一样。当你需要把表格数据作为成品文档交付时，CSV 转 PDF 转换器是最快的方式。<br/><br/>我们的工具会读取表头行与数据行，把它们渲染成格式化的表格，并自动分页。这让 CSV 转 PDF 在报表、发票和归档等场景中都非常实用，而且无需依赖笨重的办公软件。",
+        "image": {
+          "src": "/imgs/csv-to-pdf/guide.png",
+          "alt": "CSV 转 PDF 格式指南"
+        },
+        "image_position": "right",
+        "items": [
+          {
+            "title": "可编辑 vs 固定",
+            "description": "CSV 转 PDF 把可编辑的数据表格变成布局固定的文档，打印和分享都保持一致。",
+            "icon": "RiLockLine"
+          },
+          {
+            "title": "便于分享",
+            "description": "完成 CSV 转 PDF 转换后，任何人都能在任意设备上打开文件，无需电子表格软件。",
+            "icon": "RiShareLine"
+          },
+          {
+            "title": "隐私优先",
+            "description": "这款 CSV 转 PDF 转换器在浏览器本地处理文件 —— 非常适合敏感导出。",
+            "icon": "RiShieldCheckLine"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "label": "优势",
+        "title": "为什么选择我们的 CSV 转 PDF 转换器",
+        "description": "快速、免费、隐私优先的 CSV 转 PDF 体验 —— 为开发者、分析师以及所有需要把表格数据变成文档的人而打造。无需安装、无需账号，也不会上传到我们的服务器。",
+        "items": [
+          {
+            "title": "无需账号",
+            "description": "立即开始你的 CSV 转 PDF 转换 —— 无需注册、无需邮箱、无需信用卡。打开页面，粘贴或上传 CSV，几秒内即可下载 PDF。",
+            "icon": "RiUserUnfollowLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/benefits-no-account.png",
+              "alt": "CSV 转 PDF 无需账号"
+            }
+          },
+          {
+            "title": "支持中文与 Unicode",
+            "description": "得益于内嵌字体，中文、日文等 Unicode 字符都能在 PDF 中正确显示，让 CSV 转 PDF 转换完整保留多语言文本。",
+            "icon": "RiTranslate2",
+            "image": {
+              "src": "/imgs/csv-to-pdf/benefits-unicode.png",
+              "alt": "CSV 转 PDF 支持 Unicode"
+            }
+          },
+          {
+            "title": "任意设备可用",
+            "description": "在桌面、平板或手机上都能使用这款 CSV 转 PDF 转换器。任何启用 JavaScript 的现代浏览器都能上传、预览和下载，无需插件。",
+            "icon": "RiDeviceLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/benefits-devices.png",
+              "alt": "CSV 转 PDF 任意设备"
+            }
+          },
+          {
+            "title": "永久免费",
+            "description": "CSV 转 PDF 转换完全免费，没有使用次数限制，也没有付费墙。无论工作、学习还是个人项目，都能按需转换任意数量的文件。",
+            "icon": "RiGiftLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/benefits-free.png",
+              "alt": "免费 CSV 转 PDF 转换器"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "CSV 转 PDF 核心功能",
+        "description": "从文件上传、粘贴输入到实时预览和一键下载 —— 快速可靠地把 CSV 转换为 PDF 所需的一切。",
+        "items": [
+          {
+            "title": "文件上传",
+            "description": "拖放 .csv 文件或使用文件选择器，即可立即进行 CSV 转 PDF 转换。来自电子表格和数据库的大型导出也能在浏览器内存范围内处理。",
+            "icon": "RiFileUploadLine"
+          },
+          {
+            "title": "粘贴 CSV 文本",
+            "description": "从编辑器、终端或电子表格复制 CSV 并直接粘贴。这种 CSV 转 PDF 输入方式非常适合快速的一次性转换，无需保存文件。",
+            "icon": "RiClipboardLine"
+          },
+          {
+            "title": "实时表格预览",
+            "description": "在下载前于分页表格中查看表头、行和单元格内容。CSV 转 PDF 预览帮助你尽早发现列错位和空字段。",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "格式化 PDF 输出",
+            "description": "把结果导出为带表头、自动分页的格式化 PDF 表格，宽数据自动采用横向布局。每一次 CSV 转 PDF 下载都可直接打印。",
+            "icon": "RiFilePdf2Line"
+          },
+          {
+            "title": "隐私优先",
+            "description": "所有 CSV 转 PDF 处理都在你的浏览器本地运行。数据绝不会上传到我们的服务器，这在处理客户或内部记录时尤为重要。",
+            "icon": "RiShieldCheckLine"
+          },
+          {
+            "title": "无需安装",
+            "description": "无需桌面工具和命令行脚本。这款在线 CSV 转 PDF 转换器在你打开页面的一刻即可使用 —— 无需安装、无需扩展、无需终端。",
+            "icon": "RiGlobalLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "CSV 转 PDF 常见问题",
+        "description": "关于 CSV 转 PDF 转换、文件格式、隐私以及如何使用这款免费在线工具的常见问题。",
+        "items": [
+          {
+            "question": "如何在线把 CSV 文件转换为 PDF？",
+            "answer": "打开这个 CSV 转 PDF 页面，上传你的 .csv 文件或粘贴 CSV 文本，点击「转换」，预览表格，然后点击「下载 PDF」。整个 CSV 转 PDF 流程都在你的浏览器中完成，无需账号。"
+          },
+          {
+            "question": "CSV 和 PDF 有什么区别？",
+            "answer": "CSV 以逗号分隔的行和列存储可编辑的表格数据。PDF 是为查看、打印和分享而设计的固定布局文档格式。CSV 转 PDF 转换器把你的数据表格渲染成格式化表格，让它在任何设备上看起来都一样。"
+          },
+          {
+            "question": "CSV 转 PDF 转换时我的数据会被上传吗？",
+            "answer": "不会。所有 CSV 转 PDF 处理都完全在你的浏览器中进行。你的 CSV 文件和粘贴的文本绝不会离开你的设备，因此非常适合敏感导出和内部数据。"
+          },
+          {
+            "question": "生成的 PDF 支持中文和其他 Unicode 字符吗？",
+            "answer": "支持。这款 CSV 转 PDF 转换器内嵌了包含中文及常用 Unicode 字形的字体，因此多语言文本会在 PDF 中正确显示，而不会变成空白方块。"
+          },
+          {
+            "question": "CSV 转 PDF 转换有文件大小限制吗？",
+            "answer": "由于文件在本地处理，没有固定的服务器限制。非常大的 CSV 文件可能受浏览器内存限制，但常见的电子表格和数据库导出用这款 CSV 转 PDF 工具都能顺利处理。"
+          },
+          {
+            "question": "宽表格在 PDF 中如何处理？",
+            "answer": "当数据列很多时，CSV 转 PDF 工具会切换到横向页面布局，并对过长的单元格文本自动换行，让表格保持可读。行也会自动跨页分页。"
+          },
+          {
+            "question": "不安装软件也能把 CSV 转成 PDF 吗？",
+            "answer": "可以。这是一款基于浏览器的 CSV 转 PDF 转换器 —— 无需桌面应用、Python 脚本或 Office 插件。在任意现代设备上打开页面即可立即转换。"
+          },
+          {
+            "question": "CSV 转 PDF 转换是免费的吗？",
+            "answer": "是的。CSV Viewer 上的 CSV 转 PDF 转换完全免费，无需注册、无使用上限、无隐藏费用。你可以按需随时上传、预览和下载。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "准备好把 CSV 转成 PDF 了吗？",
+        "description": "在上方上传你的 CSV 文件或粘贴数据，即可开始免费的 CSV 转 PDF 转换。预览表格，下载 PDF，几秒内即可分享或打印。",
+        "buttons": [
+          {
+            "title": "立即转换",
+            "url": "#hero",
+            "icon": "Zap"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

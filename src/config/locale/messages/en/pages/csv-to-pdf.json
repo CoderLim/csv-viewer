@@ -1,0 +1,332 @@
+{
+  "metadata": {
+    "title": "CSV to PDF Converter — Free Online Tool | CSV Viewer",
+    "description": "Convert CSV to PDF online for free. Upload a file or paste text, preview in a table, and download a clean PDF instantly in your browser.",
+    "keywords": "CSV to PDF, csv to pdf converter, convert csv to pdf, csv pdf converter online, free csv to pdf"
+  },
+  "tool": {
+    "tab_upload": "Upload file",
+    "tab_paste": "Paste CSV",
+    "paste_placeholder": "Paste your CSV data here, e.g. name,age\nAlice,30",
+    "convert": "Convert",
+    "download_pdf": "Download PDF",
+    "generating": "Generating PDF...",
+    "drop_title": "Drop your CSV file here",
+    "drop_hint": "or click to browse",
+    "file_type_hint": "Supports .csv files",
+    "parsing": "Parsing...",
+    "error_invalid_type": "Please upload a .csv file",
+    "error_invalid_csv": "Invalid CSV format",
+    "error_parse_failed": "Failed to parse CSV file",
+    "error_empty": "The CSV is empty",
+    "reupload": "Convert another",
+    "row_count": "{count} rows",
+    "column_count": "{count} columns",
+    "page_info": "Page {current} of {total}"
+  },
+  "page": {
+    "title": "CSV to PDF Converter",
+    "show_sections": [
+      "hero",
+      "introduce",
+      "how_to_use",
+      "use_cases",
+      "csv_pdf_guide",
+      "benefits",
+      "features",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Convert CSV to PDF instantly",
+        "highlight_text": "PDF",
+        "description": "Upload a CSV file or paste text, preview in a table, and download a clean PDF — no signup required.",
+        "tip": "🔒 Your data stays in your browser — nothing is sent to our servers",
+        "show_avatars": false,
+        "show_award": false
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "label": "Introduce",
+        "title": "What is a CSV to PDF Converter",
+        "description": "A CSV to PDF converter turns comma-separated data into a printable, shareable PDF document. Our free online CSV to PDF tool runs entirely in your browser, so developers, analysts, and business teams can produce clean table PDFs without installing software or creating an account.",
+        "image": {
+          "src": "/imgs/csv-to-pdf/introduce-main.png",
+          "alt": "CSV to PDF conversion preview"
+        },
+        "items": [
+          {
+            "title": "Upload or Paste CSV",
+            "description": "Drag a .csv file into the browser or paste CSV text directly from your editor or export. This CSV to PDF workflow reads the header row and data rows, then starts converting in one click.",
+            "icon": "RiUploadCloud2Line",
+            "image": {
+              "src": "/imgs/csv-to-pdf/upload.png",
+              "alt": "CSV to PDF upload or paste"
+            }
+          },
+          {
+            "title": "Table Preview",
+            "description": "Before you download, review your CSV to PDF output in a clean, paginated table with column headers and row numbers. Confirm columns line up and the data looks right for your PDF.",
+            "icon": "RiTableLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/table-preview.png",
+              "alt": "CSV to PDF table preview"
+            }
+          },
+          {
+            "title": "One-Click PDF Download",
+            "description": "Download the converted PDF instantly after preview. Every CSV to PDF export renders a formatted table with automatic pagination, ready to print or share.",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "/imgs/csv-to-pdf/download.png",
+              "alt": "CSV to PDF download"
+            }
+          },
+          {
+            "title": "100% Browser-Based",
+            "description": "All CSV to PDF processing happens locally in your browser. Your files and pasted text never leave your device, which makes this converter practical for customer data, internal reports, and sensitive exports.",
+            "icon": "RiShieldCheckLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/privacy.png",
+              "alt": "private CSV to PDF converter"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "how_to_use": {
+        "block": "features-step",
+        "id": "how-to-use",
+        "label": "How it works",
+        "title": "How to convert CSV to PDF online",
+        "description": "This CSV to PDF converter is built for quick, one-off documents. There is no account setup, no command line, and no desktop install. Open the page, add your CSV, preview the table, and download a PDF in four simple steps.",
+        "items": [
+          {
+            "title": "Upload or paste your CSV",
+            "description": "Choose a .csv file from your computer or paste CSV text into the editor. The CSV to PDF tool treats the first row as column headers and every following row as a table row in the output.",
+            "icon": "RiUploadCloud2Line"
+          },
+          {
+            "title": "Preview the table",
+            "description": "Click Convert and review the CSV to PDF result in a paginated table. Column headers, row numbers, and cell values help you verify the layout before creating the document.",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "Review and verify data",
+            "description": "Check for misaligned columns, empty cells, and encoding issues before your CSV to PDF export. This quick review step helps you catch formatting problems before the PDF is generated.",
+            "icon": "RiSearchLine"
+          },
+          {
+            "title": "Download your PDF file",
+            "description": "When the preview looks correct, click Download PDF to save the document. Your CSV to PDF output includes a formatted table with automatic page breaks, ready to print or email.",
+            "icon": "RiDownload2Line"
+          }
+        ]
+      },
+      "use_cases": {
+        "block": "features",
+        "id": "use-cases",
+        "title": "Common CSV to PDF use cases",
+        "description": "Teams reach for a CSV to PDF converter whenever tabular data needs to become a fixed, shareable document. Spreadsheets, databases, and analytics tools export CSV, while reports, invoices, and archives are expected as PDF. This tool bridges that gap in the browser.",
+        "items": [
+          {
+            "title": "Reports and summaries",
+            "description": "Turn exported metrics, sales figures, and KPI tables into a polished PDF for stakeholders. A CSV to PDF workflow is ideal when you need a print-ready report without opening Excel.",
+            "icon": "RiBarChart2Line"
+          },
+          {
+            "title": "Invoices and receipts",
+            "description": "Convert billing rows and line items from CSV into a clean PDF document. CSV to PDF conversion makes it easy to share finance records that open the same way on every device.",
+            "icon": "RiBillLine"
+          },
+          {
+            "title": "Data archiving",
+            "description": "Freeze a snapshot of CSV data as a PDF so the layout never changes. CSV to PDF is useful for compliance, record keeping, and long-term storage of tabular data.",
+            "icon": "RiArchiveLine"
+          },
+          {
+            "title": "Printable spreadsheets",
+            "description": "Prepare product lists, schedules, and inventory tables for printing. CSV to PDF gives you consistent page breaks and headers without fiddling with spreadsheet print settings.",
+            "icon": "RiPrinterLine"
+          },
+          {
+            "title": "Client deliverables",
+            "description": "Share query results and data exports with non-technical clients as a professional PDF. CSV to PDF keeps handoffs simple when the recipient just needs to read the table.",
+            "icon": "RiUserSharedLine"
+          },
+          {
+            "title": "Documentation attachments",
+            "description": "Attach data tables to tickets, emails, and wikis in a universally readable format. CSV to PDF conversion turns raw exports into tidy documents anyone can open.",
+            "icon": "RiFileTextLine"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "csv_pdf_guide": {
+        "block": "features-media",
+        "id": "csv-pdf-guide",
+        "title": "CSV vs PDF: when to use a CSV to PDF converter",
+        "description": "CSV is built for editing and importing — spreadsheets and databases love it because every value sits in a plain, comma-separated grid. PDF is built for sharing and printing — it locks the layout so the table looks the same everywhere. When you need to hand off tabular data as a finished document, a CSV to PDF converter is the fastest path.<br/><br/>Our tool reads your header row and data rows, renders them into a formatted table, and paginates automatically. That makes CSV to PDF practical for reports, invoices, and archives without forcing you into heavy office software.",
+        "image": {
+          "src": "/imgs/csv-to-pdf/guide.png",
+          "alt": "CSV to PDF format guide"
+        },
+        "image_position": "right",
+        "items": [
+          {
+            "title": "Editable vs fixed",
+            "description": "CSV to PDF converts an editable data grid into a fixed-layout document that prints and shares consistently.",
+            "icon": "RiLockLine"
+          },
+          {
+            "title": "Easy to share",
+            "description": "After CSV to PDF conversion, anyone can open the file on any device without a spreadsheet app.",
+            "icon": "RiShareLine"
+          },
+          {
+            "title": "Private by design",
+            "description": "This CSV to PDF converter processes files locally in your browser — ideal for sensitive exports.",
+            "icon": "RiShieldCheckLine"
+          }
+        ]
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "label": "Benefits",
+        "title": "Why use our CSV to PDF converter",
+        "description": "A fast, free, and privacy-first CSV to PDF experience — built for developers, analysts, and anyone who needs a document from tabular data. No install, no account, and no upload to our servers.",
+        "items": [
+          {
+            "title": "No Account Required",
+            "description": "Start your CSV to PDF conversion immediately — no signup, no email, and no credit card. Open the page, paste or upload CSV, and download a PDF in seconds.",
+            "icon": "RiUserUnfollowLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/benefits-no-account.png",
+              "alt": "CSV to PDF no account"
+            }
+          },
+          {
+            "title": "Unicode and CJK Support",
+            "description": "Chinese, Japanese, and other Unicode characters render correctly in the PDF thanks to an embedded font, so CSV to PDF conversion keeps international text intact.",
+            "icon": "RiTranslate2",
+            "image": {
+              "src": "/imgs/csv-to-pdf/benefits-unicode.png",
+              "alt": "CSV to PDF unicode support"
+            }
+          },
+          {
+            "title": "Works on Any Device",
+            "description": "Use this CSV to PDF converter on desktop, tablet, or mobile. Any modern browser with JavaScript enabled can upload, preview, and download without plugins.",
+            "icon": "RiDeviceLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/benefits-devices.png",
+              "alt": "CSV to PDF any device"
+            }
+          },
+          {
+            "title": "Free Forever",
+            "description": "CSV to PDF conversion is completely free with no usage limits or paywalls. Convert as many files as you need for work, school, or personal projects.",
+            "icon": "RiGiftLine",
+            "image": {
+              "src": "/imgs/csv-to-pdf/benefits-free.png",
+              "alt": "free CSV to PDF converter"
+            }
+          }
+        ]
+      },
+      "features": {
+        "id": "features",
+        "title": "Key CSV to PDF features",
+        "description": "Everything you need to convert CSV to PDF quickly and reliably — from file upload and paste input to live preview and one-click download.",
+        "items": [
+          {
+            "title": "File Upload",
+            "description": "Drag and drop .csv files or use the file picker for instant CSV to PDF conversion. Large exports from spreadsheets and databases are supported within your browser memory limits.",
+            "icon": "RiFileUploadLine"
+          },
+          {
+            "title": "Paste CSV Text",
+            "description": "Copy CSV from your editor, terminal, or spreadsheet and paste it directly. This CSV to PDF input mode is perfect for quick one-off conversions without saving a file.",
+            "icon": "RiClipboardLine"
+          },
+          {
+            "title": "Live Table Preview",
+            "description": "Review headers, rows, and cell values in a paginated table before downloading. CSV to PDF preview helps you catch column mismatches and empty fields early.",
+            "icon": "RiTableLine"
+          },
+          {
+            "title": "Formatted PDF Output",
+            "description": "Export the result as a formatted PDF table with headers, automatic pagination, and a landscape layout for wide data. Every CSV to PDF download is print-ready.",
+            "icon": "RiFilePdf2Line"
+          },
+          {
+            "title": "Privacy First",
+            "description": "All CSV to PDF processing runs locally in your browser. Your data is never uploaded to our servers, which matters when you work with customer or internal records.",
+            "icon": "RiShieldCheckLine"
+          },
+          {
+            "title": "No Installation",
+            "description": "Skip desktop tools and command-line scripts. This online CSV to PDF converter works the moment you open the page — no install, no extension, no terminal required.",
+            "icon": "RiGlobalLine"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "CSV to PDF FAQ",
+        "description": "Common questions about CSV to PDF conversion, file formats, privacy, and how to use this free online tool.",
+        "items": [
+          {
+            "question": "How do I convert a CSV file to PDF online?",
+            "answer": "Open this CSV to PDF page, upload your .csv file or paste CSV text, click Convert, preview the table, then click Download PDF. The entire CSV to PDF workflow runs in your browser with no account required."
+          },
+          {
+            "question": "What is the difference between CSV and PDF?",
+            "answer": "CSV stores editable tabular data as rows and columns separated by commas. PDF is a fixed-layout document format built for viewing, printing, and sharing. A CSV to PDF converter renders your data grid into a formatted table so it looks the same on every device."
+          },
+          {
+            "question": "Is my data uploaded during CSV to PDF conversion?",
+            "answer": "No. All CSV to PDF processing happens entirely in your browser. Your CSV files and pasted text never leave your device, which makes this converter suitable for sensitive exports and internal data."
+          },
+          {
+            "question": "Does the PDF support Chinese and other Unicode characters?",
+            "answer": "Yes. This CSV to PDF converter embeds a font with Chinese and common Unicode glyphs, so international text renders correctly in the PDF instead of appearing as blank boxes."
+          },
+          {
+            "question": "Is there a file size limit for CSV to PDF conversion?",
+            "answer": "There is no fixed server limit because files are processed locally. Very large CSV files may be limited by your browser memory, but typical spreadsheet and database exports work well with this CSV to PDF tool."
+          },
+          {
+            "question": "How are wide tables handled in the PDF?",
+            "answer": "When your data has many columns, the CSV to PDF tool switches to a landscape page layout and wraps long cell text so the table stays readable. Rows also break across pages automatically."
+          },
+          {
+            "question": "Can I convert CSV to PDF without installing software?",
+            "answer": "Yes. This is a browser-based CSV to PDF converter — no desktop app, Python script, or Office plugin required. Open the page on any modern device and convert immediately."
+          },
+          {
+            "question": "Is CSV to PDF conversion free?",
+            "answer": "Yes. CSV to PDF conversion on CSV Viewer is completely free with no signup, no usage caps, and no hidden fees. Upload, preview, and download as often as you need."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Ready to convert CSV to PDF?",
+        "description": "Upload your CSV file or paste your data above to start a free CSV to PDF conversion. Preview the table, download the PDF, and share or print it in seconds.",
+        "buttons": [
+          {
+            "title": "Convert Now",
+            "url": "#hero",
+            "icon": "Zap"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 
 import { Link } from '@/core/i18n/navigation';
+import { CsvToPdfWorkspace } from '@/shared/blocks/csv-to-pdf';
 import { CsvHeroWorkspace } from '@/shared/blocks/csv-viewer';
 import { JsonToCsvWorkspace } from '@/shared/blocks/json-to-csv';
 import { Highlighter } from '@/shared/components/ui/highlighter';
@@ -97,6 +98,13 @@ export function Hero({
       {section.json_tool && (
         <JsonToCsvWorkspace
           labels={section.json_tool}
+          className="mt-4 sm:mt-8"
+        />
+      )}
+
+      {section.csv_pdf_tool && (
+        <CsvToPdfWorkspace
+          labels={section.csv_pdf_tool}
           className="mt-4 sm:mt-8"
         />
       )}
