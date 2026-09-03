@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { getThemePage } from '@/core/theme';
 import { envConfigs } from '@/config';
+import { hreflangLanguages } from '@/shared/lib/seo';
 import { Empty } from '@/shared/blocks/common';
 import {
   PostType as DBPostType,
@@ -39,6 +40,7 @@ export async function generateMetadata({
         locale !== envConfigs.locale
           ? `${envConfigs.app_url}/${locale}/blog/category/${slug}`
           : `${envConfigs.app_url}/blog/category/${slug}`,
+      languages: hreflangLanguages(`/blog/category/${slug}`),
     },
   };
 }

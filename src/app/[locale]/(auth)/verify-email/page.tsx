@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { redirect } from '@/core/i18n/navigation';
 import { envConfigs } from '@/config';
 import { defaultLocale } from '@/config/locale';
+import { hreflangLanguages } from '@/shared/lib/seo';
 import { VerifyEmailPage } from '@/shared/blocks/sign/verify-email';
 
 export async function generateMetadata({
@@ -20,6 +21,7 @@ export async function generateMetadata({
         locale !== defaultLocale
           ? `${envConfigs.app_url}/${locale}/verify-email`
           : `${envConfigs.app_url}/verify-email`,
+      languages: hreflangLanguages('/verify-email'),
     },
   };
 }

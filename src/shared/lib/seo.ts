@@ -1,7 +1,32 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { envConfigs } from '@/config';
-import { defaultLocale } from '@/config/locale';
+import { defaultLocale, locales } from '@/config/locale';
+
+export function localeAbsoluteUrl(path: string, locale: string): string {
+  if (path.startsWith('http')) return path;
+  let pathname = path || '/';
+  if (!pathname.startsWith('/')) pathname = `/${pathname}`;
+  const origin = (envConfigs.app_url || '').replace(/\/$/, '');
+  if (pathname !== '/' && pathname.endsWith('/')) {
+    pathname = pathname.slice(0, -1);
+  }
+  if (!locale || locale === defaultLocale) {
+    return pathname === '/' ? `${origin}/` : `${origin}${pathname}`;
+  }
+  return pathname === '/'
+    ? `${origin}/${locale}`
+    : `${origin}/${locale}${pathname}`;
+}
+
+export function hreflangLanguages(path: string): Record<string, string> {
+  const languages: Record<string, string> = {};
+  for (const loc of locales) {
+    languages[loc] = localeAbsoluteUrl(path, loc);
+  }
+  languages['x-default'] = localeAbsoluteUrl(path, defaultLocale);
+  return languages;
+}
 
 // get metadata for page component
 export function getMetadata(
@@ -14,6 +39,7 @@ export function getMetadata(
     imageUrl?: string;
     appName?: string;
     noIndex?: boolean;
+    skipAlternates?: boolean;
   } = {}
 ) {
   return async function generateMetadata({
@@ -86,9 +112,12 @@ export function getMetadata(
         passedMetadata.keywords ||
         translatedMetadata.keywords ||
         defaultMetadata.keywords,
-      alternates: {
-        canonical: canonicalUrl,
-      },
+      alternates: options.skipAlternates
+        ? undefined
+        : {
+            canonical: canonicalUrl,
+            languages: hreflangLanguages(options.canonicalUrl || '/'),
+          },
 
       openGraph: {
         type: 'website',

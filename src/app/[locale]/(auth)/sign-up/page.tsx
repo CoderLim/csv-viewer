@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 
 import { envConfigs } from '@/config';
 import { defaultLocale } from '@/config/locale';
+import { hreflangLanguages } from '@/shared/lib/seo';
 import { redirect } from '@/core/i18n/navigation';
 import { SignUp } from '@/shared/blocks/sign/sign-up';
 import { getPublicConfigs } from '@/shared/models/config';
@@ -37,6 +38,7 @@ export async function generateMetadata({
         locale !== defaultLocale
           ? `${envConfigs.app_url}/${locale}/sign-up`
           : `${envConfigs.app_url}/sign-up`,
+      languages: hreflangLanguages('/sign-up'),
     },
   };
 }

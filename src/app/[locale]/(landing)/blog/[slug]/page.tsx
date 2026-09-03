@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { getThemePage } from '@/core/theme';
 import { envConfigs } from '@/config';
+import { hreflangLanguages } from '@/shared/lib/seo';
 import { Empty } from '@/shared/blocks/common';
 import { getPost } from '@/shared/models/post';
 import { DynamicPage } from '@/shared/types/blocks/landing';
@@ -28,6 +29,7 @@ export async function generateMetadata({
       description: t('description'),
       alternates: {
         canonical: canonicalUrl,
+        languages: hreflangLanguages(`/blog/${slug}`),
       },
     };
   }
@@ -35,9 +37,10 @@ export async function generateMetadata({
   return {
     title: `${post.title} | ${t('title')}`,
     description: post.description,
-    alternates: {
-      canonical: canonicalUrl,
-    },
+      alternates: {
+        canonical: canonicalUrl,
+        languages: hreflangLanguages(`/blog/${slug}`),
+      },
   };
 }
 
