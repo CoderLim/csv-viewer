@@ -7,10 +7,13 @@ import {
   ThemeToggler,
 } from '@/shared/blocks/common';
 import { SmartIcon } from '@/shared/blocks/common/smart-icon';
+import { getFriendLinks } from '@/shared/services/friend-links';
 import { NavItem } from '@/shared/types/blocks/common';
 import { Footer as FooterType } from '@/shared/types/blocks/landing';
 
-export function Footer({ footer }: { footer: FooterType }) {
+export async function Footer({ footer }: { footer: FooterType }) {
+  const moreTools = await getFriendLinks();
+
   return (
     <footer
       id={footer.id}
@@ -51,6 +54,28 @@ export function Footer({ footer }: { footer: FooterType }) {
                 </div>
               </div>
             ))}
+
+            {moreTools.length > 0 ? (
+              <div className="min-w-0 space-y-4 text-sm break-words">
+                <span className="block font-medium break-words">
+                  {footer.more_tools_title || 'More Tools'}
+                </span>
+
+                <div className="flex min-w-0 flex-col gap-4">
+                  {moreTools.map((tool) => (
+                    <a
+                      key={tool.link}
+                      href={tool.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary block break-words duration-150"
+                    >
+                      <span className="break-words">{tool.siteName}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            ) : null}
           </div>
         </div>
 

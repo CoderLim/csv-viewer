@@ -53,6 +53,7 @@ export interface Footer extends Section {
   id?: string;
   brand?: Brand;
   nav?: Nav;
+  more_tools_title?: string;
   copyright?: string;
   social?: SocialNav;
   agreement?: AgreementNav;
